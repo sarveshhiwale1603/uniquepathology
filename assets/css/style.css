@@ -475,7 +475,7 @@ h6 {
   height: 90vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
-  margin-bottom: -200px;
+  /* margin-bottom: -200px; */
 }
 
 #hero .container {
@@ -797,7 +797,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.jpg") center center no-repeat;
+  background: url("../img/aboutUs.png") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -1787,4 +1787,25 @@ section {
   background: #1c84e3;
   color: #fff;
   text-decoration: none;
+}
+.sectionTitle h6:before {
+  content: "";
+  position: absolute;
+  background: #4ab242;
+  left: 0;
+  top: 50%;
+  margin-top: -1px;
+  width: 30px;
+  height: 2px;
+}
+.sectionTitle h6 {
+  position: relative;
+  padding-left: 40px;
+  display: inline-block;
+}
+
+.featured-step{
+-webkit-box-shadow: 5px 8px 30px 0 rgb(31 35 37 / 8%);
+-moz-box-shadow: 5px 8px 30px 0 rgba(31, 35, 37, 0.08);
+box-shadow: 5px 8px 30px 0 rgb(31 35 37 / 8%);
 }
