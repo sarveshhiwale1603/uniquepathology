@@ -797,9 +797,9 @@ section {
 }
 
 .about .video-box {
-  /* background: url("../img/aboutUs.png") center center no-repeat; */
+  background: url("../img/aboutUs.png") no-repeat left center;
   background-size: cover;
-  height :500px;
+  height :620px;
 }
 
 .about .play-btn {
