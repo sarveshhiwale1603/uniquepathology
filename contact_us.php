@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Medilab Bootstrap Template - Index</title>
+    <title>Unique Pathology - Contact Us</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -109,9 +109,7 @@
                 </div>
             </div>
             <div class="map mt-5 pt-5">
-                <iframe style="border:0; width: 100%; height: 350px;"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                    frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.1143577329212!2d73.00206351437721!3d19.102638456099843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c0d74da785b1%3A0xfef7f7b3d8a64109!2sTwin+Shelter+Chs+Ltd%2C+Plot+No.84%2C+Sector+6%2C+Kopar+Khairane%2C+Navi+Mumbai%2C+Maharashtra+400709!5e0!3m2!1sen!2sin!4v1561446820777!5m2!1sen!2sin" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen=""></iframe>
             </div>
         </section><!-- End Contact Section -->
     </main><!-- End #main -->
