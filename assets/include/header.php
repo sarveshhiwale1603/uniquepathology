@@ -16,10 +16,11 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
-      <div class="col-5">
-    <img src="assets/img/webp/footerlogo.png" alt="" style="height:80px; width:50%">
-    </div>
-    <div class="col-5">
+      
+      <h1 class="logo me-auto"><img src="assets/img/webp/footerlogo.png" alt="" width="100%" height="100%"></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
@@ -47,11 +48,9 @@
       <li><a class="nav-link scrollto" href="contact_us.php">Contact Us</a></li>
     </ul>
     <i class="bi bi-list mobile-nav-toggle"></i>
-    
-  </nav>
-  </div><!-- .navbar -->
-      <div class="col-2">
+  </nav><!-- .navbar -->
+  
       <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a>
-      </div>
+
     </div>
   </header><!-- End Header -->
