@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: #f1f7fd;
 }
 
 a {
@@ -756,7 +757,7 @@ section {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #8dc2f1;
+  /* border: 2px solid #8dc2f1; */
   border-radius: 50px;
   transition: 0.5s;
 }
