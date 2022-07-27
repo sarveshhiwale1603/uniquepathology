@@ -31,14 +31,11 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/shortcodes.css" rel="stylesheet">
-
-
-    <!-- =======================================================
-  * Template Name: Medilab - v4.8.1
-  * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+<style>
+  .img-fluid{
+    padding: .8rem;
+  }
+</style>
 </head>
 <body>
 

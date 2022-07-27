@@ -47,6 +47,13 @@
       color: #fff;
       text-align: left !important;
     }
+    
+      @media (max-width: 767px){
+        .carousel {
+             margin-bottom: 0 !important;
+             /* height: 100vh !important; */
+            }}
+    
   </style>
 </head>
 
@@ -64,7 +71,7 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item">
-        <img class="d-block w-100" style="  height: 95vh;" src="assets/img/departments-2.jpg" alt="First slide">
+        <img class="d-block w-100 imgCarousle" src="assets/img/departments-2.jpg" alt="First slide" width="500" height="600">
         <div class="carousel-caption d-none d-md-block">
           <h1>We Provide Best Solution.</h1>
           <h2>We Try To Make Our Maximum Us Of Our Experience,Accumulate Potential, Knowledge Of Modern Equipment
@@ -73,7 +80,7 @@
         </div>
       </div>
       <div class="carousel-item active">
-        <img class="d-block w-100" style="  height: 95vh;" src="assets/img/departments-1.jpg" alt="Second slide">
+        <img class="d-block w-100 imgCarousle" src="assets/img/departments-1.jpg" alt="Second slide" width="500" height="600">
         <div class="carousel-caption d-none d-md-block">
           <h1>Welcome To Unique Diagnostics & Pathology Laboratory</h1>
           <h2>We are one of the leading pathology laboratories in Navi Mumbai. We offer a comprehensive range of clinical, and laboratory tests and profiles.</h2>
@@ -81,7 +88,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" style="  height: 95vh;" src="assets/img/departments-3.jpg" alt="Third slide">
+        <img class="d-block w-100 imgCarousle" src="assets/img/departments-3.jpg" alt="Third slide" width="500" height="600">
         <div class="carousel-caption d-none d-md-block">
           <h1>We Offering High-Quality Accurate Tests At Affordable Prices.</h1>
           <h2>We are driven by a patient care philosophy to provide the best diagnostic center experience Pathology Tests, Health Check-up Packages, Home Sample Collection</h2>
@@ -169,7 +176,7 @@
               <p><b>We are one of the leading pathology laboratory in navi Mumbai. <br>
                   We offer a comprehensive range of clinical, laboratory tests and profiles. which are used for
                   prediction, early detection, diagnostic screening, confirmation and /or monitoring of the disease. <u
-                    style="color: #4ab242;"> During the financial year 2018 we completed ----- patients</u></b> </p>
+                    style="color: #4ab242;"> During the financial year 2022 we completed 578 patients.</u></b> </p>
               <p class="py-2">The profile comprises of a variety of test combinations which are specific to a disease or
                 disorder as well as wellness profiles that are used for health and fitness screening.</p>
               <div class="row text-center">
@@ -368,28 +375,8 @@
                 <div class="validate"></div>
               </div>
               <div class="col-md-6 form-group mt-3">
-                <input type="datetime" name="date" class="form-control datepicker" id="date"
+                <input type="date" name="date" class="form-control datepicker" id="date"
                   placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                <div class="validate"></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-6 form-group mt-3">
-                <select name="department" id="department" class="form-select">
-                  <option value="">Select Department</option>
-                  <option value="Department 1">Department 1</option>
-                  <option value="Department 2">Department 2</option>
-                  <option value="Department 3">Department 3</option>
-                </select>
-                <div class="validate"></div>
-              </div>
-              <div class="col-6 form-group mt-3">
-                <select name="doctor" id="doctor" class="form-select">
-                  <option value="">Select Doctor</option>
-                  <option value="Doctor 1">Doctor 1</option>
-                  <option value="Doctor 2">Doctor 2</option>
-                  <option value="Doctor 3">Doctor 3</option>
-                </select>
                 <div class="validate"></div>
               </div>
             </div>
@@ -420,7 +407,6 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>

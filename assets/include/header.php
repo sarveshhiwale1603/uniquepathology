@@ -23,7 +23,7 @@
       
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.php">Home</a></li>
           <li><a class="nav-link scrollto" href="about_us.php">About Us</a></li>
           <li><a class="nav-link scrollto" href="services.php">Services</a></li>
           <li><a class="nav-link scrollto" href="packages.php">Package</a></li>

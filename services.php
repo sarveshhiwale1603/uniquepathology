@@ -43,7 +43,14 @@
 <style>
   .img-fluid {
     height: 50%;
-    width: 400%;
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    .img-fluid {
+    height: 40%;
+    width: 100%;
+  }
+    
   }
 </style>
 

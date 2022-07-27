@@ -54,7 +54,7 @@
                 <div class="row">
                     <div
                         class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
-                        <img src="assets\img\webp\aboutus.jpg" alt="">
+                        <!-- <img src="assets\img\webp\aboutus.jpg" alt="" height="80%"> -->
                     </div>
 
                     <div
@@ -63,24 +63,24 @@
                         <p><strong>We are one of the leading pathology laboratory in navi Mumbai. We offer a
                                 comprehensive range of clinical, laboratory tests and profiles. which are used for
                                 prediction, early detection, diagnostic screening, confirmation and /or monitoring of
-                                the disease.</strong><strong style="color:#4AB342"><u>During the financial year 2018 we
-                                    completed ----- patients</u></strong></p>
+                                the disease.</strong><strong style="color:#4AB342"><u>During the financial year 2022 we
+                                    completed 578 patients</u></strong></p>
                         <p>The profile comprises of a variety of test combinations which are specific to a disease or
                             disorder as well as wellness profiles that are used for health and fitness screening.</p>
 
                         <div class="row">
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="icon-box">
                                 <div class="icon"><i class="fa fa-stethoscope"></i></div>
-                                <h4 class="title">Bio-Chemistry</h4>
+                                <h4 class="title" style="color:#4AB342">Bio-Chemistry</h4>
                                 <p class="description">The kidneys are one of the most vital organs in your body, with one of the most important jobs.</p>
                             </div>
                         </div>
 
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="icon-box">
                                 <div class="icon"><i class="fa fa-first-aid"></i></div>
-                                <h4 class="title">Pathology</h4>
+                                <h4 class="title" style="color:#4AB342">Pathology</h4>
                                 <p class="description">diagnosis arrived at by an examination of the substance and function of the tissues of the body</p>
                             </div>
                         </div>
