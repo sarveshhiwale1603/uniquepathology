@@ -23,11 +23,11 @@
       
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto" href="index.php">Home</a></li>
-          <li><a class="nav-link scrollto" href="about_us.php">About Us</a></li>
-          <li><a class="nav-link scrollto" href="services.php">Services</a></li>
-          <li><a class="nav-link scrollto" href="packages.php">Package</a></li>
-          <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
+          <li><a class="nav-link scrollto home" href="index.php">Home</a></li>
+          <li><a class="nav-link scrollto about" href="about_us.php">About Us</a></li>
+          <li><a class="nav-link scrollto service" href="services.php">Services</a></li>
+          <li><a class="nav-link scrollto package" href="packages.php">Package</a></li>
+          <li><a class="nav-link scrollto gallary" href="gallery.php">Gallery</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a href="#">Drop Down 1</a></li>
@@ -45,7 +45,7 @@
           <li><a href="#">Drop Down 4</a></li>
         </ul>
       </li> -->
-      <li><a class="nav-link scrollto" href="contact_us.php">Contact Us</a></li>
+      <li><a class="nav-link scrollto contact" href="contact_us.php">Contact Us</a></li>
     </ul>
     <i class="bi bi-list mobile-nav-toggle"></i>
   </nav><!-- .navbar -->
@@ -97,7 +97,7 @@
                                 </div>
                                 </div>
                               </div>
-                                <button class="subscribe" name="save">Book Appointment</button>
+                                <button class="subscribe mt-3" name="save">Book Appointment</button>
                             </div>
 </form>
                         </div>

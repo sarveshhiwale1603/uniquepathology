@@ -1870,7 +1870,7 @@ section {
 }
 .modal-box .modal-dialog .modal-content {
   text-align: center;
-  border-radius: 30px;
+  border-radius: 10px;
   box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.3);
   position: relative;
 }
@@ -1882,30 +1882,30 @@ section {
  height: 15%;
  top: 0;
  left: 0;
- border-radius: 25px 25px 0 0;
+ border-radius: 10px 10px 0 0;
  z-index: 0;
 }
 .modal-box .modal-dialog .modal-content .close {
- color: #273c75;
- background-color: #fff;
- font-size: 28px;
+ color: gray;
+ /* background-color: #fff; */
+ font-size: 35px;
  text-shadow: none;
- line-height: 33px;
+ /* line-height: 33px; */
  height: 33px;
  width: 33px;
  opacity: 1;
  border-radius: 50%;
- box-shadow: 0 0 5px #555;
+ /* box-shadow: 0 0 5px #555; */
  position: absolute;
  left: auto;
- right: -5px;
- top: -5px;
+ right: 2px;
+ top: 2px;
  z-index: 1;
  transition: all 0.3s;
 }
 .modal-box .modal-dialog .modal-content .close:hover {
-  color: #fff;
-  background-color: #273c75;
+  color: #4ab242;
+  /* background-color: #273c75; */
 }
 .modal-box .modal-dialog .modal-content .modal-body {
   padding: 0 20px 30px !important;
@@ -1941,13 +1941,13 @@ section {
 }
 .modal-box .modal-dialog .modal-content .modal-body .form-control {
  color: #000;
- background: #e2e2e2;
+ /* background: #e2e2e2; */
  font-size: 16px;
  letter-spacing: 1px;
  text-align: center;
  height: 40px;
  padding: 2px 15px 2px 15px;
- border-radius: 50px;
+ border-radius: 5px;
  display: block;
  transition: all 0.3s;
 }
@@ -1963,9 +1963,9 @@ section {
  color: #fff;
  background: #4ab242;
  font-size: 18px;
- font-weight: 700;
+ font-weight: 300;
  text-transform: uppercase;
- padding: 10px 38px;
+ padding: 10px 25px;
  margin: 0 auto;
  border: none;
  border-radius: 50px;

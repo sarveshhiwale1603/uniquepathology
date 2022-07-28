@@ -46,6 +46,10 @@ include("assets/include/config.php");
   <link href="assets/css/shortcodes.css" rel="stylesheet">
 
   <style>
+    .home{
+  color: #4ab242 !important;
+  border-color: #4ab242 !important;
+}
     .carousel-caption {
       position: absolute;
       /* right: 15%; */
