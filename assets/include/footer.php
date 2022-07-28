@@ -20,7 +20,7 @@
       </div>
       
       <div class="col-lg-2 col-md-6 footer-links">
-        <h4>Our Services</h4>
+        <h4>OUR SERVICES</h4>
         <ul>
           <li><i class="bx bx-chevron-right"></i> <a class="nav-link" href="services.php">BIO - CHEMISTRY</a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="#">PATHOLOGY</a></li>
@@ -32,7 +32,7 @@
       </div>
 
       <div class="col-lg-2 col-md-6 footer-links">
-        <h4>Quick Links</h4>
+        <h4>QUICK LINKS</h4>
         <ul>
           <li><i class="bx bx-chevron-right"></i> <a href="about_us.php">About us</a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="contact_us.php">Contact us</a></li>
