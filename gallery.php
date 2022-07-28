@@ -79,13 +79,13 @@
         <div class="container-fluid pt-3">
           <div class="row g-0">
   <?php
-   $sql=mysqli_query($conn,"select * from general_setting");   
+   $sql=mysqli_query($conn,"select * from portfolio");   
    while($arr=mysqli_fetch_array($sql)){
   ?>
             <div class="col-lg-3 col-md-4">
               <div class="gallery-item">
-                <a href="admin/dist/img/gallery/<?php echo $arr['gallery_img'];?>" class="galelry-lightbox">
-                  <img src="admin/dist/img/gallery/<?php echo $arr['gallery_img'];?>" alt="" class="img-fluid">
+                <a href="assets/img/gallery/<?php echo $arr['company_name'];?>" class="galelry-lightbox">
+                  <img src="assets/img/gallery/<?php echo $arr['image'];?>" alt="" class="img-fluid">
                 </a>
               </div>
             </div>
