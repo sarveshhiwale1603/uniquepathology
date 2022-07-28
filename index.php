@@ -63,11 +63,12 @@ include("assets/include/config.php");
              margin-bottom: 0 !important;
              /* height: 100vh !important; */
             }}
-    
   </style>
 </head>
 
 <body>
+  
+
 
 <?php include("assets/include/header.php"); ?>
  <!-- End Header -->
@@ -426,6 +427,8 @@ include("assets/include/config.php");
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

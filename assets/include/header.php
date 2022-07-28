@@ -50,7 +50,42 @@
     <i class="bi bi-list mobile-nav-toggle"></i>
   </nav><!-- .navbar -->
   
-      <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a>
+      <a href="" class="appointment-btn scrollto show-modal" data-toggle="modal" data-target="#myModal"><span class="d-none d-md-inline">Make an</span> Appointment</a>
 
     </div>
   </header><!-- End Header -->
+
+
+
+    <!-- Modal -->
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="modal-box">
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <div class="modal-body">
+                                <div class="icon">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <h3 class="title">- Subscribe! -</h3>
+                                <p class="description">Lorem Ipsum Uinh Rtyh Ervty Cgyui.</p>
+                                <div class="form-group">
+                                    <input class="form-control name" type="text" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control email" type="email" placeholder="Enter Your Email Address">
+                                </div>
+                                <button class="subscribe">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
