@@ -32,11 +32,35 @@
                 </p>
               </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="getacall.php" class="nav-link">
                 <i class="nav-icon fas fa-mobile text-pink"></i>
                 <p>
                  Get a Call
+                </p>
+              </a>
+            </li> -->
+            <li class="nav-item">
+              <a href="contact.php" class="nav-link">
+                <i class="nav-icon fas fa-mobile text-green"></i>
+                <p>
+                 Contact Us
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="Appointment.php" class="nav-link">
+                <i class="nav-icon fas fa-calendar text-green"></i>
+                <p>
+                Appointment
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="Subscriber.php" class="nav-link">
+                <i class="nav-icon fas fa-envelope text-green"></i>
+                <p>
+                Subscribe
                 </p>
               </a>
             </li>
