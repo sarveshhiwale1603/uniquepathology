@@ -1876,7 +1876,7 @@ section {
 }
 .modal-box .modal-dialog .modal-content:before {
  content: "";
- background: #4ab242;
+ /* background: #4ab242; */
  position: absolute;
  width: 100%;
  height: 15%;
@@ -1932,6 +1932,7 @@ section {
  text-align: center;
  text-transform: capitalize;
  margin: 0 0 5px 0;
+ padding: 15px 0 15px 0;
 }
 .modal-box .modal-dialog .modal-content .modal-body .description {
  color: #00bfe3;
