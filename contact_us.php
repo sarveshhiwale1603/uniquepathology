@@ -48,6 +48,10 @@ include("assets/include/config.php");
   .card {
     outline: none;
   }
+  .contact{
+  color: #4ab242 !important;
+  border-color: #4ab242 !important;
+}
 </style>
 
 <body>

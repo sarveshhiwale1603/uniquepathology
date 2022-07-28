@@ -46,6 +46,12 @@ include("assets/include/config.php");
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/ribbon.css" rel="stylesheet">
   <link href="assets/css/shortcodes.css" rel="stylesheet">
+  <style>
+    .package{
+  color: #4ab242 !important;
+  border-color: #4ab242 !important;
+}
+  </style>
 </head>
 
 <body>

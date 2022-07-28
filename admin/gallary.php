@@ -92,6 +92,7 @@ if(isset($_GET['eid'])){
       height: 36px;
       border-radius: 100%;
     }
+ 
   </style>
 </head>
 
