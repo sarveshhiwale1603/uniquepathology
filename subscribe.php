@@ -1,8 +1,11 @@
 <?php
 include"assets/include/config.php";
-if(isset($_POST['signup'])){
+if(isset($_POST['email'])){
+  $email=$_POST['email'];
+  $sql=mysqli_query($conn, "INSERT INTO `subscribe`(`email`) VALUES('$email')");
+
     $status=1;
-    $email=$_POST['email'];  
+     
   $from = 'Enquiry <'.$email.'>' . "\r\n";
   $sendTo = 'Enquiry <'.$email.'>';
   $subject = 'Unique Pathology';
@@ -42,7 +45,8 @@ if(isset($_POST['signup'])){
     $sql=mysqli_query($conn,"INSERT INTO `subscribe`(`email`,`status`) 
      VALUES ('$email','$status')");
      if($sql=1){
-       echo "<script>alert('Agent Registered Successfully');</script>";    }
+       echo "<script>alert('Agent Registered Successfully');</script>";  
+      header("location:index.php");  }
      else{
        echo "<script>alert('Something Wrong');</script>";
      }

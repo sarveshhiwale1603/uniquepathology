@@ -10,7 +10,7 @@
     $sql=mysqli_query($conn, "INSERT INTO `make_an_appointment`(`name`,`email`,`phone`,`date`) VALUES('$name','$email','$phone','$date')");
 
     if( $sql==1){
-        echo "<script> alert('New Records Added Has Been Succesfully !');window.location='index.php';</script>";
+        echo "<script> alert('New Records Added Has Been Succesfully !');window.location='header.php';</script>";
     }
     else{
         echo "<script> alert('Connection Failed !');</script>";
