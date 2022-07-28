@@ -70,10 +70,8 @@
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                             <form action="indexDB.php" method="post">
                             <div class="modal-body">
-                                <div class="icon">
-                                    <i class="fa fa-envelope"></i>
-                                </div>
-                                <h6 class="title mb-2 mt-0">Book Appointment</h6>
+                               
+                                <h6 class="title mb-2 mt-2">Book Appointment</h6>
                                 <!-- <p class="description">Lorem Ipsum Uinh Rtyh Ervty Cgyui.</p> -->
                                 <div class="row">
                                 <div class="col-6">
