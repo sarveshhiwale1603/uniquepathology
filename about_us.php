@@ -36,7 +36,7 @@
 
 
   <style>
-      .home{
+      .aboutUsNav{
   color: #4ab242 !important;
   border-color: #4ab242 !important;
 }
