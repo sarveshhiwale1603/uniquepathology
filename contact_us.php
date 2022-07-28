@@ -10,38 +10,38 @@ include("assets/include/config.php");
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Unique Pathology - Contact Us</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+  <title>Unique Pathology - Contact Us</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/shortcodes.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/shortcodes.css" rel="stylesheet">
 
 
-    <!-- =======================================================
+  <!-- =======================================================
   * Template Name: Medilab - v4.8.1
   * Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
   * Author: BootstrapMade.com
@@ -49,31 +49,31 @@ include("assets/include/config.php");
   ======================================================== -->
 </head>
 <style>
-    .card{
-        outline:none;
-    }
-   
+  .card {
+    outline: none;
+  }
 </style>
+
 <body>
 
-    <!-- ======= Header ======= -->
+  <!-- ======= Header ======= -->
   <?php include("assets/include/header.php"); ?>
-   <!-- End Header -->
+  <!-- End Header -->
 
-    <main id="main" class="mt-5" >
+  <main id="main" class="mt-5">
 
-        <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact mt-5 pt-5">
-        <div class="container mt-5 pt-3">
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact mt-5 pt-5">
+      <div class="container mt-5 pt-3">
 
-<div class="section-title">
-  <h2>Contact</h2>
-  <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
-</div>
-</div>
+        <div class="section-title">
+          <h2>Contact</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+      </div>
 
 
-        <div class="container">
+      <div class="container">
         <div class="row mt-5">
 
           <div class="col-lg-4">
@@ -117,7 +117,7 @@ include("assets/include/config.php");
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-              
+
               <div class="text-center"><button type="submit" class="" name="save">Send Message</button></div>
             </form>
 
@@ -126,28 +126,30 @@ include("assets/include/config.php");
         </div>
 
       </div>
-            <div class="map mt-5 pt-5">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.1143577329212!2d73.00206351437721!3d19.102638456099843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c0d74da785b1%3A0xfef7f7b3d8a64109!2sTwin+Shelter+Chs+Ltd%2C+Plot+No.84%2C+Sector+6%2C+Kopar+Khairane%2C+Navi+Mumbai%2C+Maharashtra+400709!5e0!3m2!1sen!2sin!4v1561446820777!5m2!1sen!2sin" width="100%" height="350px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-            </div>
-        </section><!-- End Contact Section -->
-    </main><!-- End #main -->
+      <div class="map mt-5 pt-5">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.1143577329212!2d73.00206351437721!3d19.102638456099843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c0d74da785b1%3A0xfef7f7b3d8a64109!2sTwin+Shelter+Chs+Ltd%2C+Plot+No.84%2C+Sector+6%2C+Kopar+Khairane%2C+Navi+Mumbai%2C+Maharashtra+400709!5e0!3m2!1sen!2sin!4v1561446820777!5m2!1sen!2sin"
+          width="100%" height="350px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+      </div>
+    </section><!-- End Contact Section -->
+  </main><!-- End #main -->
 
-    <!-- ======= Footer ======= -->
-    <?php include("assets/include/footer.php"); ?>
-    <!-- End Footer -->
+  <!-- ======= Footer ======= -->
+  <?php include("assets/include/footer.php"); ?>
+  <!-- End Footer -->
 
-    <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
