@@ -67,30 +67,36 @@ include("assets/include/config.php");
           <div class="col-lg-12 col-md-12 col-sm-12 d-flex align-items-stretch">
             <div class="icon-boxes d-flex flex-column justify-content-center">
               <div class="row">
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
+                <div class="col-xl-4 d-flex pl-0 mt-5 align-items-stretch">
+                  <div class="icon-box mt-xl-0">
+                <div class="ribbon-corner ribbon-fold" style="z-index:1;" data-tor="place.left place.top"> <span>sar</span></div>
+
                     <i class="fas fa-award"></i>
                     <h1>Aws Treatment</h1>
                     <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                    <h3 class="mt-2 ribbon color" style="color:#fff;">18,000/-</h3>
+                    <h3 class="mt-2 ">18,000/-</h3>
+                    <div class="text-center align-items-center mt-4"><button type="submit" class="appointment-btn show-modal" data-toggle="modal" data-target="#myModal2" style="margin-left:0px !important;" name="save">Order Now</button></div>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex pl-0 mt-5 align-items-stretch">
+                  <div class="icon-box  mt-xl-0">
+                <div class="ribbon-corner ribbon-fold" style="z-index:1;" data-tor="place.left place.top"> <span>sar</span></div>
+
+                    <i class="fas fa-award"></i>
+                    <h1>Aws Treatment</h1>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    <h3 class="mt-2 ">18,000/-</h3>
                     <div class="text-center align-items-center mt-4"><button type="submit" class="appointment-btn" style="margin-left:0px !important;" name="save">Order Now</button></div>
                   </div>
                 </div>
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
+                <div class="col-xl-4 d-flex pl-0 pt-0 mt-5 align-items-stretch">
+                  <div class="icon-box mt-xl-0">
+                <div class="ribbon-corner ribbon-fold" style="z-index:1;" data-tor="place.left place.top"> <span>sar</span></div>
+
                     <i class="fas fa-award"></i>
                     <h1>Aws Treatment</h1>
                     <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                    <h3 class="mt-2 ribbon color" style="color:#fff;">18,000/-</h3>
-                    <div class="text-center align-items-center mt-4"><button type="submit" class="appointment-btn" style="margin-left:0px !important;" name="save">Order Now</button></div>
-                  </div>
-                </div>
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="fas fa-award"></i>
-                    <h1>Aws Treatment</h1>
-                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                    <h3 class="mt-2 ribbon color" style="color:#fff;">18,000/-</h3>
+                    <h3 class="mt-2 ">18,000/-</h3>
                     <div class="text-center align-items-center mt-4"><button type="submit" class="appointment-btn" style="margin-left:0px !important;" name="save">Order Now</button></div>
                   </div>
                 </div>
@@ -105,6 +111,56 @@ include("assets/include/config.php");
 
   </main><!-- End #main -->
   <!-- </div> -->
+   <!-- Modal -->
+
+   <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="modal-box">
+                <!-- Modal -->
+                <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog modal-md" role="document">
+                        <div class="modal-content">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <form action="indexDB.php" method="post">
+                            <div class="modal-body">
+                               
+                                <h6 class="title mb-2 mt-2">AWS Treatment</h6>
+                                <!-- <p class="description">Lorem Ipsum Uinh Rtyh Ervty Cgyui.</p> -->
+                                <div class="row">
+                                <div class="col-6">
+                                <div class="form-group">
+                                    <input class="form-control name" name="name" type="text" placeholder="Name">
+                                </div>
+                                </div>
+                                <div class="col-6">
+                                <div class="form-group">
+                                    <input class="form-control email" name="email" type="email" placeholder="Email Address">
+                                </div>
+                              </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-6">
+                                <div class="form-group">
+                                  <input class="form-control phone" name="phone" type="tel" placeholder="Phone No.">
+                                </div>
+                                </div>
+                                <div class="col-6">
+                                <div class="form-group">
+                                  <input class="form-control date" name="date" type="date" placeholder="Date">
+                                </div>
+                                </div>
+                              </div>
+                                <button class="subscribe mt-3" name="save">Book Appointment</button>
+                            </div>
+</form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
   <!-- ======= Footer ======= -->
   <?php include("assets/include/footer.php"); ?>
 
