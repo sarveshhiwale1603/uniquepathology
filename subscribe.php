@@ -2,7 +2,7 @@
 include"assets/include/config.php";
 if(isset($_POST['email'])){
   $email=$_POST['email'];
-  $sql=mysqli_query($conn, "INSERT INTO `subscribe`(`email`) VALUES('$email')");
+  
 
     $status=1;
      
