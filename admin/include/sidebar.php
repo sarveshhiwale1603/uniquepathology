@@ -64,15 +64,15 @@
                 </p>
               </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a href="enquires.php" class="nav-link">
                 <i class="nav-icon fas fa-users text-green"></i>
                 <p>
                  Enquires
                 </p>
               </a>
-            </li>
-            <li class="nav-item">
+            </li> -->
+            <!-- <li class="nav-item">
               <a href="sales.php" class="nav-link">
                 <i class="nav-icon fas fa-store text-red"></i>
                 <p>
@@ -87,7 +87,7 @@
                Subscribe
                 </p>
               </a>
-            </li>
+            </li> -->
             <li class="nav-item">
              <a href="#" class="nav-link">
              <i class="nav-icon fas fa-user-cog text-blue"></i>
@@ -103,18 +103,18 @@
               <p>General Setting</p>
             </a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a href="paymentaccount.php" class="nav-link">
               <i class="nav-icon fas fa-file-invoice text-blue"></i>
               <p>Payment Account</p>
             </a>
-          </li>
-            <li class="nav-item">
+          </li> -->
+            <!-- <li class="nav-item">
             <a href="googleanalytics.php" class="nav-link">
               <i class="nav-icon fas fa-sun text-yellow"></i>
               <p>Google Analytics</p>
             </a>
-          </li>
+          </li> -->
         </ul>
       </li>            
           
