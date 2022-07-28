@@ -8,9 +8,8 @@ if(isset($_POST['email'])){
      
   $from = 'Enquiry <'.$email.'>' . "\r\n";
   $sendTo = 'Enquiry <'.$email.'>';
-  $subject = 'Unique Pathology';
-  // $fields = array( 'name' => 'name' );
-  $from = 'Agreerent: 1.0' . "\r\n";
+  $subject = 'New Email Subscription Unique Pathology';
+  $from = 'Unique Pathology' . "\r\n";
   $from .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
   
   
@@ -27,9 +26,9 @@ if(isset($_POST['email'])){
         
       </style>
   </head>
-  <body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #f1f1f1;">
+  <body>
      <div>
-     <h1>'.$email.'</h1>
+     <p> You Have A New Email Subscription:- '.$email.'</p>
      </div>
   </body>
   </html>';
