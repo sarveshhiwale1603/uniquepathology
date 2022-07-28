@@ -112,6 +112,19 @@ if(isset($_POST['articleourblog41']))
       echo "<script> alert ('connection failed !');</script>";
    }
 }
+if(isset($_POST['banner1']))
+{
+    $file=$_FILES['file']['name'];   
+    $filedet=$_FILES['file']['tmp_name'];
+    $loc="dist/img/gallery/".$file;
+    move_uploaded_file($filedet,$loc);
+    $sql="UPDATE general_setting SET gallery_img='$file' where id ='9'";
+    if (mysqli_query($conn, $sql)){
+      echo "<script> alert ('New record has been added successfully !');</script>";
+   } else {
+      echo "<script> alert ('connection failed !');</script>";
+   }
+}
 
 
 ?>
@@ -121,7 +134,7 @@ if(isset($_POST['articleourblog41']))
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Dashboard</title>
+  <title>AdminLTE 3 | General Setting</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet"
@@ -150,9 +163,9 @@ if(isset($_POST['articleourblog41']))
   <div class="wrapper">
 
     <!-- Preloader -->
-    <!-- <div class="preloader flex-column justify-content-center align-items-center">
+    <div class="preloader flex-column justify-content-center align-items-center">
       <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
-    </div> -->
+    </div>
 
     <!-- Navbar -->
     <?php include("include/header.php")?>
@@ -168,12 +181,12 @@ if(isset($_POST['articleourblog41']))
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1 class="m-0">Dashboard</h1>
+              <h1 class="m-0">Images</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active">Banner</li>
+                <li class="breadcrumb-item active">General setting</li>
               </ol>
             </div><!-- /.col -->
           </div><!-- /.row -->
@@ -192,7 +205,7 @@ if(isset($_POST['articleourblog41']))
               <div class="col-md-12">
                 <div class="card card-primary">
                   <div class="card-header">
-                    <h3 class="card-title">Home 1</h3>
+                    <h3 class="card-title">Gallery Image 1</h3>
 
                     <div class="card-tools">
                       <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -248,7 +261,7 @@ if(isset($_POST['articleourblog41']))
               <div class="col-md-12">
                 <div class="card card-primary">
                   <div class="card-header">
-                    <h3 class="card-title">Home 2</h3>
+                    <h3 class="card-title">Gallery Image 2</h3>
 
                     <div class="card-tools">
                       <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -304,7 +317,7 @@ if(isset($_POST['articleourblog41']))
               <div class="col-md-12">
                 <div class="card card-primary">
                   <div class="card-header">
-                    <h3 class="card-title">Home 3</h3>
+                    <h3 class="card-title">Gallery Image 3</h3>
 
                     <div class="card-tools">
                       <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -363,7 +376,7 @@ if(isset($_POST['articleourblog41']))
               <div class="col-md-12">
                 <div class="card card-primary">
                   <div class="card-header">
-                    <h3 class="card-title">About us 1</h3>
+                    <h3 class="card-title">Gallery Image 4</h3>
 
                     <div class="card-tools">
                       <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -419,7 +432,7 @@ if(isset($_POST['articleourblog41']))
               <div class="col-md-12">
                 <div class="card card-primary">
                   <div class="card-header">
-                    <h3 class="card-title">About Us 2</h3>
+                    <h3 class="card-title">Gallery Image 5</h3>
 
                     <div class="card-tools">
                       <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -478,7 +491,7 @@ if(isset($_POST['articleourblog41']))
               <div class="col-md-12">
                 <div class="card card-primary">
                   <div class="card-header">
-                    <h3 class="card-title">Listing 1</h3>
+                    <h3 class="card-title">Gallery Image 6</h3>
 
                     <div class="card-tools">
                       <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -537,7 +550,7 @@ if(isset($_POST['articleourblog41']))
               <div class="col-md-12">
                 <div class="card card-primary">
                   <div class="card-header">
-                    <h3 class="card-title">Vendor Gegistration 1</h3>
+                    <h3 class="card-title">Gallery Image 7</h3>
 
                     <div class="card-tools">
                       <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -596,7 +609,7 @@ if(isset($_POST['articleourblog41']))
               <div class="col-md-12">
                 <div class="card card-primary">
                   <div class="card-header">
-                    <h3 class="card-title">Article Our Blog</h3>
+                    <h3 class="card-title">Gallery Image 8</h3>
 
                     <div class="card-tools">
                       <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -646,6 +659,65 @@ if(isset($_POST['articleourblog41']))
         </div>
       </section>
       <!-- article our blog -->
+
+      <!-- index banner 1 -->
+      <section class="content ">
+        <div class="container-fluid">
+          <section class="content">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card card-primary">
+                  <div class="card-header">
+                    <h3 class="card-title">Index Banner 1</h3>
+
+                    <div class="card-tools">
+                      <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                        <i class="fas fa-minus"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <form method="post" enctype="multipart/form-data" action="">
+                    <div class="card-body">
+                      <?php  
+                        $sql=mysqli_query($conn,"select * from general_setting where id='9'");   
+                        while($arr=mysqli_fetch_array($sql)){
+                      ?>
+                      <div class="form-group col-md-12">
+                        <label for="inputName">Existing Banner Image</label>
+                      </div>
+                      <div class="col-md-12 col-lg-6 col-xl-4">
+                        <div class="card mb-2 bg-gradient-dark">
+                          <img class="card-img-top" src="dist/img/gallery/<?php echo $arr['banner_img'];?>" alt="file">
+                          <div class="card-img-overlay d-flex flex-column justify-content-end">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="input-group">
+                        <div class="form-group col-md-12">
+                          <label for="inputName">New Banner Image</label>
+                        </div>
+
+                        <div class="custom-file">
+                          <input type="file" name="file" class="custom-file-input" id="formFileMultiple">
+                          <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                        </div>
+                        <div class="input-group" style="margin-top:2%">
+                          <input type="submit" name="articleourblog41" value="submit" class="btn btn-success ">
+                        </div>
+
+                      </div>
+                      <?php }  ?>
+                    </div>
+                  </form>
+                </div>
+
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+            </div>
+        </div>
+      </section>
+      <!-- index banner 1 -->
 
   
 
