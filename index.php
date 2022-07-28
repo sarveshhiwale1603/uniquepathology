@@ -1,3 +1,13 @@
+<?php
+include("assets/include/config.php");
+                        // $sql=mysqli_query($conn,"select * from `general_setting`");
+                        //  $arr=mysqli_fetch_array($sql)
+                    
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -355,7 +365,7 @@
             <h6>Reservation</h6>
             <h2 class="title text-white">Book An <span>Appointment Now!</span></h2>
           </div>
-          <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+          <form action="indexDB.php" method="POST" role="form" class="php-email-form">
             <div class="row">
               <div class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
@@ -385,7 +395,7 @@
               <div class="error-message"></div>
               <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
             </div>
-            <div class="text-center"><button type="submit">Make an Appointment</button></div>
+            <div class="text-center"><button type="submit" name="save">Make an Appointment</button></div>
           </form>
         </div>
       </div>

@@ -1,3 +1,11 @@
+<?php
+include("assets/include/config.php");
+                        // $sql=mysqli_query($conn,"select * from `general_setting`");
+                        //  $arr=mysqli_fetch_array($sql)
+                    
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -94,7 +102,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="contact_usDB.php" method="POST" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -109,12 +117,8 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              
+              <div class="text-center"><button type="submit" class="" name="save">Send Message</button></div>
             </form>
 
           </div>
@@ -141,7 +145,6 @@
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
