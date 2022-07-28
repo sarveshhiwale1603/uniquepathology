@@ -5,9 +5,16 @@ include("assets/include/config.php");
                     
 ?>
 
+<?php
+   $sql=mysqli_query($conn,"select * from general_setting where id='1'");  
+   $arr=mysqli_fetch_array($sql); 
+   $sql1=mysqli_query($conn,"select * from general_setting where id='2'"); 
+   $arr1=mysqli_fetch_array($sql1); 
+   $sql2=mysqli_query($conn,"select * from general_setting where id='3  '");  
+   $arr2=mysqli_fetch_array($sql2); 
+ 
 
-
-
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -86,7 +93,7 @@ include("assets/include/config.php");
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item">
-        <img class="d-block w-100 imgCarousle" src="assets/img/departments-2.jpg" alt="First slide" width="500" height="600">
+        <img class="d-block w-100 imgCarousle" src="admin/dist/img/gallery/<?php echo $arr['gallery_img'] ?>" alt="First slide" width="500" height="600">
         <div class="carousel-caption d-none d-md-block">
           <h1>We Provide Best Solution.</h1>
           <h2>We Try To Make Our Maximum Us Of Our Experience,Accumulate Potential, Knowledge Of Modern Equipment
@@ -95,7 +102,7 @@ include("assets/include/config.php");
         </div>
       </div>
       <div class="carousel-item active">
-        <img class="d-block w-100 imgCarousle" src="assets/img/departments-1.jpg" alt="Second slide" width="500" height="600">
+        <img class="d-block w-100 imgCarousle" src="admin/dist/img/gallery/<?php echo $arr1['gallery_img'] ?>" alt="Second slide" width="500" height="600">
         <div class="carousel-caption d-none d-md-block">
           <h1>Welcome To Unique Diagnostics & Pathology Laboratory</h1>
           <h2>We are one of the leading pathology laboratories in Navi Mumbai. We offer a comprehensive range of clinical, and laboratory tests and profiles.</h2>
@@ -103,7 +110,7 @@ include("assets/include/config.php");
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100 imgCarousle" src="assets/img/departments-3.jpg" alt="Third slide" width="500" height="600">
+        <img class="d-block w-100 imgCarousle" src="admin/dist/img/gallery/<?php echo $arr2['gallery_img'] ?>" alt="Third slide" width="500" height="600">
         <div class="carousel-caption d-none d-md-block">
           <h1>We Offering High-Quality Accurate Tests At Affordable Prices.</h1>
           <h2>We are driven by a patient care philosophy to provide the best diagnostic center experience Pathology Tests, Health Check-up Packages, Home Sample Collection</h2>

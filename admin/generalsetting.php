@@ -43,88 +43,88 @@ if(isset($_POST['home3']))
    }
 }
 
-if(isset($_POST['aboutus11']))
-{
-    $file=$_FILES['file']['name'];   
-    $filedet=$_FILES['file']['tmp_name'];
-    $loc="dist/img/gallery/".$file;
-    move_uploaded_file($filedet,$loc);
-    $sql="UPDATE general_setting SET gallery_img='$file' where id ='4'";
-    if (mysqli_query($conn, $sql)){
-      echo "<script> alert ('New record has been added successfully !');</script>";
-   } else {
-      echo "<script> alert ('connection failed !');</script>";
-   }
-}
+// if(isset($_POST['aboutus11']))
+// {
+//     $file=$_FILES['file']['name'];   
+//     $filedet=$_FILES['file']['tmp_name'];
+//     $loc="dist/img/gallery/".$file;
+//     move_uploaded_file($filedet,$loc);
+//     $sql="UPDATE general_setting SET gallery_img='$file' where id ='4'";
+//     if (mysqli_query($conn, $sql)){
+//       echo "<script> alert ('New record has been added successfully !');</script>";
+//    } else {
+//       echo "<script> alert ('connection failed !');</script>";
+//    }
+// }
 
-if(isset($_POST['aboutus12']))
-{
-    $filee=$_FILES['file']['name'];   
-    $filedet=$_FILES['file']['tmp_name'];
-    $loc="dist/img/gallery/".$filee;
-    move_uploaded_file($filedet,$loc);
-    $sql="UPDATE general_setting SET gallery_img='$filee' where id ='5'";
-    if (mysqli_query($conn, $sql)){
-      echo "<script> alert ('New record has been added successfully !');</script>";
-   } else {
-      echo "<script> alert ('connection failed !');</script>";
-   }
-}
+// if(isset($_POST['aboutus12']))
+// {
+//     $filee=$_FILES['file']['name'];   
+//     $filedet=$_FILES['file']['tmp_name'];
+//     $loc="dist/img/gallery/".$filee;
+//     move_uploaded_file($filedet,$loc);
+//     $sql="UPDATE general_setting SET gallery_img='$filee' where id ='5'";
+//     if (mysqli_query($conn, $sql)){
+//       echo "<script> alert ('New record has been added successfully !');</script>";
+//    } else {
+//       echo "<script> alert ('connection failed !');</script>";
+//    }
+// }
 
-if(isset($_POST['listing21']))
-{
-    $file=$_FILES['file']['name'];   
-    $filedet=$_FILES['file']['tmp_name'];
-    $loc="dist/img/gallery/".$file;
-    move_uploaded_file($filedet,$loc);
-    $sql="UPDATE general_setting SET gallery_img='$file' where id ='6'";
-    if (mysqli_query($conn, $sql)){
-      echo "<script> alert ('New record has been added successfully !');</script>";
-   } else {
-      echo "<script> alert ('connection failed !');</script>";
-   }
-}
+// if(isset($_POST['listing21']))
+// {
+//     $file=$_FILES['file']['name'];   
+//     $filedet=$_FILES['file']['tmp_name'];
+//     $loc="dist/img/gallery/".$file;
+//     move_uploaded_file($filedet,$loc);
+//     $sql="UPDATE general_setting SET gallery_img='$file' where id ='6'";
+//     if (mysqli_query($conn, $sql)){
+//       echo "<script> alert ('New record has been added successfully !');</script>";
+//    } else {
+//       echo "<script> alert ('connection failed !');</script>";
+//    }
+// }
 
-if(isset($_POST['vendor31']))
-{
-    $file=$_FILES['file']['name'];   
-    $filedet=$_FILES['file']['tmp_name'];
-    $loc="dist/img/gallery/".$file;
-    move_uploaded_file($filedet,$loc);
-    $sql="UPDATE general_setting SET gallery_img='$file' where id ='7'";
-    if (mysqli_query($conn, $sql)){
-      echo "<script> alert ('New record has been added successfully !');</script>";
-   } else {
-      echo "<script> alert ('connection failed !');</script>";
-   }
-}
+// if(isset($_POST['vendor31']))
+// {
+//     $file=$_FILES['file']['name'];   
+//     $filedet=$_FILES['file']['tmp_name'];
+//     $loc="dist/img/gallery/".$file;
+//     move_uploaded_file($filedet,$loc);
+//     $sql="UPDATE general_setting SET gallery_img='$file' where id ='7'";
+//     if (mysqli_query($conn, $sql)){
+//       echo "<script> alert ('New record has been added successfully !');</script>";
+//    } else {
+//       echo "<script> alert ('connection failed !');</script>";
+//    }
+// }
 
-if(isset($_POST['articleourblog41']))
-{
-    $file=$_FILES['file']['name'];   
-    $filedet=$_FILES['file']['tmp_name'];
-    $loc="dist/img/gallery/".$file;
-    move_uploaded_file($filedet,$loc);
-    $sql="UPDATE general_setting SET gallery_img='$file' where id ='8'";
-    if (mysqli_query($conn, $sql)){
-      echo "<script> alert ('New record has been added successfully !');</script>";
-   } else {
-      echo "<script> alert ('connection failed !');</script>";
-   }
-}
-if(isset($_POST['banner1']))
-{
-    $file=$_FILES['file']['name'];   
-    $filedet=$_FILES['file']['tmp_name'];
-    $loc="dist/img/gallery/".$file;
-    move_uploaded_file($filedet,$loc);
-    $sql="UPDATE general_setting SET gallery_img='$file' where id ='9'";
-    if (mysqli_query($conn, $sql)){
-      echo "<script> alert ('New record has been added successfully !');</script>";
-   } else {
-      echo "<script> alert ('connection failed !');</script>";
-   }
-}
+// if(isset($_POST['articleourblog41']))
+// {
+//     $file=$_FILES['file']['name'];   
+//     $filedet=$_FILES['file']['tmp_name'];
+//     $loc="dist/img/gallery/".$file;
+//     move_uploaded_file($filedet,$loc);
+//     $sql="UPDATE general_setting SET gallery_img='$file' where id ='8'";
+//     if (mysqli_query($conn, $sql)){
+//       echo "<script> alert ('New record has been added successfully !');</script>";
+//    } else {
+//       echo "<script> alert ('connection failed !');</script>";
+//    }
+// }
+// if(isset($_POST['banner1']))
+// {
+//     $file=$_FILES['file']['name'];   
+//     $filedet=$_FILES['file']['tmp_name'];
+//     $loc="dist/img/gallery/".$file;
+//     move_uploaded_file($filedet,$loc);
+//     $sql="UPDATE general_setting SET gallery_img='$file' where id ='9'";
+//     if (mysqli_query($conn, $sql)){
+//       echo "<script> alert ('New record has been added successfully !');</script>";
+//    } else {
+//       echo "<script> alert ('connection failed !');</script>";
+//    }
+// }
 
 
 ?>
