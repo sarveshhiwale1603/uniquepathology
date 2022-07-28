@@ -50,7 +50,60 @@
     <i class="bi bi-list mobile-nav-toggle"></i>
   </nav><!-- .navbar -->
   
-      <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a>
+      <a href="" class="appointment-btn scrollto show-modal" data-toggle="modal" data-target="#myModal"><span class="d-none d-md-inline">Make an</span> Appointment</a>
 
     </div>
   </header><!-- End Header -->
+
+
+
+    <!-- Modal -->
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="modal-box">
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog modal-md" role="document">
+                        <div class="modal-content">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <div class="modal-body">
+                                <div class="icon">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <h6 class="title mb-2 mt-0">Book Appointment</h6>
+                                <!-- <p class="description">Lorem Ipsum Uinh Rtyh Ervty Cgyui.</p> -->
+                                <div class="row">
+                                <div class="col-6">
+                                <div class="form-group">
+                                    <input class="form-control name" type="text" placeholder="Name">
+                                </div>
+                                </div>
+                                <div class="col-6">
+                                <div class="form-group">
+                                    <input class="form-control email" type="email" placeholder="Email Address">
+                                </div>
+                              </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-6">
+                                <div class="form-group">
+                                  <input class="form-control phone" type="tel" placeholder="Phone No.">
+                                </div>
+                                </div>
+                                <div class="col-6">
+                                <div class="form-group">
+                                  <input class="form-control date" type="date" placeholder="Date">
+                                </div>
+                                </div>
+                              </div>
+                                <button class="subscribe">Book Appointment</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

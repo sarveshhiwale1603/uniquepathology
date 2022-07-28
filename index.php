@@ -63,11 +63,12 @@ include("assets/include/config.php");
              margin-bottom: 0 !important;
              /* height: 100vh !important; */
             }}
-    
   </style>
 </head>
 
 <body>
+  
+
 
 <?php include("assets/include/header.php"); ?>
  <!-- End Header -->
@@ -142,21 +143,21 @@ include("assets/include/config.php");
                     <div class="icon-box mt-4 mt-xl-0">
                       <i class="fa fa-user-md"></i>
                       <h4>Best Checkup</h4>
-                      <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                      <p>Best of the technologies, Best of the reagents, Best of the procedures, Best of systems, Best of trained and highly focused Pathologists, Biochemists, Scientists and Technologists gives Best of the Quality  </p>
                     </div>
                   </div>
                   <div class="col-xl-4 d-flex align-items-stretch">
                     <div class="icon-box mt-4 mt-xl-0">
                       <i class="fas fa-award"></i>
                       <h4>Qualityful Service</h4>
-                      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                      <p>Best of the technologies, Best of the reagents, Best of the procedures, Best of systems, Best of trained and highly focused Pathologists, Biochemists, Scientists and Technologists gives Best of the Quality  </p>
                     </div>
                   </div>
                   <div class="col-xl-4 d-flex align-items-stretch">
                     <div class="icon-box mt-4 mt-xl-0">
                       <i class='bx bx-support'></i>
                       <h4>24 x 7 Available</h4>
-                      <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                      <p>Laboratory functions 24X7. Air-cargo functions 24 X 7.</p>
                     </div>
                   </div>
                 </div>
@@ -362,7 +363,7 @@ include("assets/include/config.php");
         <div class="col-lg-6 col-sm-12 container pt-3 pb-3"
           style="padding-right: 1.5rem!important; padding-left: 1.5rem!important;">
           <div class="section-title text-white mb-4 ">
-            <h6>Reservation</h6>
+            <!-- <h6>Reservation</h6> -->
             <h2 class="title text-white">Book An <span>Appointment Now!</span></h2>
           </div>
           <form action="indexDB.php" method="POST" role="form" class="php-email-form">
@@ -426,6 +427,8 @@ include("assets/include/config.php");
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>

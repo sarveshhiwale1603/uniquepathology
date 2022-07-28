@@ -6,6 +6,9 @@ include("assets/include/config.php");
 ?>
 
 
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +16,7 @@ include("assets/include/config.php");
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Unique Pathology - Contact Us</title>
+  <title>Inner Page - Medilab Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -21,8 +24,7 @@ include("assets/include/config.php");
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-
-  <!-- Google Fonts -->
+<!-- Google Fonts -->
 <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
@@ -42,96 +44,70 @@ include("assets/include/config.php");
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/ribbon.css" rel="stylesheet">
   <link href="assets/css/shortcodes.css" rel="stylesheet">
 </head>
-<style>
-  .card {
-    outline: none;
-  }
-</style>
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <?php include("assets/include/header.php"); ?>
-  <!-- End Header -->
+<?php include("assets/include/header.php"); ?>
+ <!-- End Header -->
 
   <main id="main" class="mt-5">
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact mt-5 pt-5">
-      <div class="container mt-5 pt-3">
 
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container mt-5 pt-3">
         <div class="section-title">
-          <h2>Contact</h2>
+          <h2>Packages</h2>
           <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
-      </div>
-
-
-      <div class="container">
-        <div class="row mt-5">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="contact_usDB.php" method="POST" class="php-email-form">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
               <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="fas fa-award"></i>
+                    <h1>Aws Treatment</h1>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    <h3 class="mt-2 ribbon color" style="color:#fff;">18,000/-</h3>
+                    <div class="text-center align-items-center mt-4"><button type="submit" class="appointment-btn" style="margin-left:0px !important;" name="save">Order Now</button></div>
+                  </div>
                 </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="fas fa-award"></i>
+                    <h1>Aws Treatment</h1>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    <h3 class="mt-2 ribbon color" style="color:#fff;">18,000/-</h3>
+                    <div class="text-center align-items-center mt-4"><button type="submit" class="appointment-btn" style="margin-left:0px !important;" name="save">Order Now</button></div>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="fas fa-award"></i>
+                    <h1>Aws Treatment</h1>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    <h3 class="mt-2 ribbon color" style="color:#fff;">18,000/-</h3>
+                    <div class="text-center align-items-center mt-4"><button type="submit" class="appointment-btn" style="margin-left:0px !important;" name="save">Order Now</button></div>
+                  </div>
                 </div>
               </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-
-              <div class="text-center"><button type="submit" class="" name="save">Send Message</button></div>
-            </form>
-
+            </div><!-- End .content-->
           </div>
-
         </div>
 
       </div>
-      <div class="map mt-5 pt-5">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.1143577329212!2d73.00206351437721!3d19.102638456099843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c0d74da785b1%3A0xfef7f7b3d8a64109!2sTwin+Shelter+Chs+Ltd%2C+Plot+No.84%2C+Sector+6%2C+Kopar+Khairane%2C+Navi+Mumbai%2C+Maharashtra+400709!5e0!3m2!1sen!2sin!4v1561446820777!5m2!1sen!2sin"
-          width="100%" height="350px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-      </div>
-    </section><!-- End Contact Section -->
-  </main><!-- End #main -->
+    </section><!-- End Why Us Section -->
 
+
+  </main><!-- End #main -->
+  <!-- </div> -->
   <!-- ======= Footer ======= -->
   <?php include("assets/include/footer.php"); ?>
+
   <!-- End Footer -->
 
   <div id="preloader"></div>
@@ -156,6 +132,7 @@ include("assets/include/config.php");
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
