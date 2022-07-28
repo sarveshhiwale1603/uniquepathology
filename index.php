@@ -143,21 +143,21 @@ include("assets/include/config.php");
                     <div class="icon-box mt-4 mt-xl-0">
                       <i class="fa fa-user-md"></i>
                       <h4>Best Checkup</h4>
-                      <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                      <p>Best of the technologies, Best of the reagents, Best of the procedures, Best of systems, Best of trained and highly focused Pathologists, Biochemists, Scientists and Technologists gives Best of the Quality  </p>
                     </div>
                   </div>
                   <div class="col-xl-4 d-flex align-items-stretch">
                     <div class="icon-box mt-4 mt-xl-0">
                       <i class="fas fa-award"></i>
                       <h4>Qualityful Service</h4>
-                      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                      <p>Best of the technologies, Best of the reagents, Best of the procedures, Best of systems, Best of trained and highly focused Pathologists, Biochemists, Scientists and Technologists gives Best of the Quality  </p>
                     </div>
                   </div>
                   <div class="col-xl-4 d-flex align-items-stretch">
                     <div class="icon-box mt-4 mt-xl-0">
                       <i class='bx bx-support'></i>
                       <h4>24 x 7 Available</h4>
-                      <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                      <p>Laboratory functions 24X7. Air-cargo functions 24 X 7.</p>
                     </div>
                   </div>
                 </div>
@@ -363,7 +363,7 @@ include("assets/include/config.php");
         <div class="col-lg-6 col-sm-12 container pt-3 pb-3"
           style="padding-right: 1.5rem!important; padding-left: 1.5rem!important;">
           <div class="section-title text-white mb-4 ">
-            <h6>Reservation</h6>
+            <!-- <h6>Reservation</h6> -->
             <h2 class="title text-white">Book An <span>Appointment Now!</span></h2>
           </div>
           <form action="indexDB.php" method="POST" role="form" class="php-email-form">
