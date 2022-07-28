@@ -68,6 +68,7 @@
                     <div class="modal-dialog modal-md" role="document">
                         <div class="modal-content">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                            <form action="indexDB.php" method="post">
                             <div class="modal-body">
                                 <div class="icon">
                                     <i class="fa fa-envelope"></i>
@@ -77,29 +78,30 @@
                                 <div class="row">
                                 <div class="col-6">
                                 <div class="form-group">
-                                    <input class="form-control name" type="text" placeholder="Name">
+                                    <input class="form-control name" name="name" type="text" placeholder="Name">
                                 </div>
                                 </div>
                                 <div class="col-6">
                                 <div class="form-group">
-                                    <input class="form-control email" type="email" placeholder="Email Address">
+                                    <input class="form-control email" name="email" type="email" placeholder="Email Address">
                                 </div>
                               </div>
                               </div>
                               <div class="row">
                                 <div class="col-6">
                                 <div class="form-group">
-                                  <input class="form-control phone" type="tel" placeholder="Phone No.">
+                                  <input class="form-control phone" name="phone" type="tel" placeholder="Phone No.">
                                 </div>
                                 </div>
                                 <div class="col-6">
                                 <div class="form-group">
-                                  <input class="form-control date" type="date" placeholder="Date">
+                                  <input class="form-control date" name="date" type="date" placeholder="Date">
                                 </div>
                                 </div>
                               </div>
-                                <button class="subscribe">Book Appointment</button>
+                                <button class="subscribe" name="save">Book Appointment</button>
                             </div>
+</form>
                         </div>
                     </div>
                 </div>

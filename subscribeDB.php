@@ -6,7 +6,6 @@
     // $status=$_POST['status'];
    
 
-    $sql=mysqli_query($conn, "INSERT INTO `subscribe`(`email`) VALUES('$email')");
 
     if( $sql==1){
         echo "<script> alert('New Records Added Has Been Succesfully !');window.location='subscribe.php';</script>";
