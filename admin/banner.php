@@ -3,11 +3,13 @@ include('../assets/include/config.php');
 
 if(isset($_POST['home1']))
 {
+    $banner_heading=$_POST['banner_heading'];
+    $banner_content=$_POST['banner_content'];
     $file=$_FILES['file']['name'];   
     $filedet=$_FILES['file']['tmp_name'];
     $loc="dist/img/gallery/".$file;
     move_uploaded_file($filedet,$loc);
-    $sql="UPDATE general_setting SET gallery_img='$file' where id ='1'";
+    $sql="UPDATE general_setting SET gallery_img='$file', banner_heading='$banner_heading', banner_content='$banner_content' where id ='1'";
     if (mysqli_query($conn, $sql)){
       echo "<script> alert ('New record has been added successfully !');</script>";
    } else {
@@ -17,11 +19,13 @@ if(isset($_POST['home1']))
 
 if(isset($_POST['home2']))
 {
+    $banner_heading=$_POST['banner_heading'];
+    $banner_content=$_POST['banner_content'];
     $filee=$_FILES['file']['name'];   
     $filedet=$_FILES['file']['tmp_name'];
     $loc="dist/img/gallery/".$filee;
     move_uploaded_file($filedet,$loc);
-    $sql="UPDATE general_setting SET gallery_img='$filee' where id ='2'";
+    $sql="UPDATE general_setting SET gallery_img='$filee', banner_heading='$banner_heading', banner_content='$banner_content' where id ='2'";
     if (mysqli_query($conn, $sql)){
       echo "<script> alert ('New record has been added successfully !');</script>";
    } else {
@@ -31,11 +35,13 @@ if(isset($_POST['home2']))
 
 if(isset($_POST['home3']))
 {
+    $banner_heading=$_POST['banner_heading'];
+    $banner_content=$_POST['banner_content'];
     $fileee=$_FILES['file']['name'];   
     $filedet=$_FILES['file']['tmp_name'];
     $loc="dist/img/gallery/".$fileee;
     move_uploaded_file($filedet,$loc);
-    $sql="UPDATE general_setting SET gallery_img='$fileee' where id ='3'";
+    $sql="UPDATE general_setting SET gallery_img='$fileee', banner_heading='$banner_heading', banner_content='$banner_content' where id ='3'";
     if (mysqli_query($conn, $sql)){
       echo "<script> alert ('New record has been added successfully !');</script>";
    } else {
@@ -219,6 +225,19 @@ if(isset($_POST['home3']))
                         $sql=mysqli_query($conn,"select * from general_setting where id='1'");   
                         while($arr=mysqli_fetch_array($sql)){
                       ?>
+                      <div class="col-12">
+                      <label for="">Banner Heading 1</label>
+                    </div>
+                    <div class="col-12">
+                      <input type="text" class="form-control" value="<?php echo $arr['banner_heading'];?>" placeholder="Banner Heading 1" name="banner_heading">
+                      </div>
+                      <div class="col-12">
+                      <label for="">Banner Content 1</label>
+                    </div>
+                    <div class="col-12">
+                      <input type="text" class="form-control" value="<?php echo $arr['banner_content'];?>" placeholder="Banner Content 1" name="banner_content">
+                      
+                      </div>
                       <div class="form-group col-md-12">
                         <label for="inputName">Existing Banner Image</label>
                       </div>
@@ -275,6 +294,14 @@ if(isset($_POST['home3']))
                         $sql=mysqli_query($conn,"select * from general_setting where id='2'");   
                         while($arr=mysqli_fetch_array($sql)){
                       ?>
+                      <div class="col-12">
+                      <label for="">Banner Heading 2</label>
+                          <input type="text" class="form-control" name="banner_heading" placeholder="Banner Heading 2" value="<?php echo $arr['banner_heading'];?>">
+                      </div>
+                      <div class="col-12">
+                      <label for="">Banner Content 2</label>
+                          <input type="text" class="form-control" name="banner_content" placeholder="Banner Content 2" value="<?php echo $arr['banner_content'];?>">
+                      </div>
                       <div class="form-group col-md-12">
                         <label for="inputName">Existing Banner Image</label>
                       </div>
@@ -331,6 +358,14 @@ if(isset($_POST['home3']))
                         $sql=mysqli_query($conn,"select * from general_setting where id='3'");   
                         while($arr=mysqli_fetch_array($sql)){
                       ?>
+                      <div class="col-12">
+                      <label for="">Banner Heading</label>
+                          <input type="text" class="form-control" name="banner_heading" placeholder="Banner Heading 3" value="<?php echo $arr['banner_heading'];?>">
+                      </div>
+                      <div class="col-12">
+                      <label for="">Banner Content</label>
+                          <input type="text" class="form-control" name="banner_content" placeholder="Banner Content 3" value="<?php echo $arr['banner_content'];?>">
+                      </div>
                       <div class="form-group col-md-12">
                         <label for="inputName">Existing Banner Image</label>
                       </div>
@@ -623,6 +658,7 @@ if(isset($_POST['home3']))
                         $sql=mysqli_query($conn,"select * from general_setting where id='8'");   
                         while($arr=mysqli_fetch_array($sql)){
                       ?>
+                      
                       <div class="form-group col-md-12">
                         <label for="inputName">Existing Banner Image</label>
                       </div>
@@ -769,6 +805,9 @@ if(isset($_POST['home3']))
   
   <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
   <script src="dist/js/pages/dashboard.js"></script>
+                          <!-- font awsome  -->
+  <script src="https://kit.fontawesome.com/467f9d214f.js" crossorigin="anonymous"></script>
+
 
 
 

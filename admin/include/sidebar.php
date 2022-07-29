@@ -80,15 +80,15 @@
                 </p>
               </a>
             </li>
-             <!-- <li class="nav-item">
-              <a href="subscribe.php" class="nav-link">
+             <li class="nav-item">
+              <a href="banner.php" class="nav-link">
                 <i class="nav-icon fas fa-envelope text-white"></i>
                 <p>
-               Subscribe
+               Banner
                 </p>
               </a>
-            </li> -->
-            <li class="nav-item">
+            </li>
+            <!-- <li class="nav-item">
              <a href="#" class="nav-link">
              <i class="nav-icon fas fa-user-cog text-blue"></i>
              <p>
@@ -98,11 +98,11 @@
             </a>  
         <ul class="nav nav-treeview">
           <li class="nav-item">
-            <a href="generalsetting.php" class="nav-link">
+            <a href="banner.php" class="nav-link">
               <i class="nav-icon fas fa-cogs text-pink"></i>
               <p>General Setting</p>
             </a>
-          </li>
+          </li> -->
           <!-- <li class="nav-item">
             <a href="paymentaccount.php" class="nav-link">
               <i class="nav-icon fas fa-file-invoice text-blue"></i>

@@ -95,25 +95,31 @@ include("assets/include/config.php");
       <div class="carousel-item">
         <img class="d-block w-100 imgCarousle" src="admin/dist/img/gallery/<?php echo $arr['gallery_img'] ?>" alt="First slide" width="500" height="600">
         <div class="carousel-caption d-none d-md-block">
-          <h1>We Provide Best Solution.</h1>
-          <h2>We Try To Make Our Maximum Us Of Our Experience,Accumulate Potential, Knowledge Of Modern Equipment
-            Handling For Accuracy.</h2>
+          <h1><?php echo $arr['banner_heading'] ?></h1>
+          <!-- <h1>We Provide Best Solution.</h1> -->
+          <h2><?php echo $arr['banner_content'] ?></h2>
+          <!-- <h2>We Try To Make Our Maximum Us Of Our Experience,Accumulate Potential, Knowledge Of Modern Equipment
+            Handling For Accuracy.</h2> -->
           <a href="#about" class="btn-get-started scrollto">Get Started</a>
         </div>
       </div>
       <div class="carousel-item active">
         <img class="d-block w-100 imgCarousle" src="admin/dist/img/gallery/<?php echo $arr1['gallery_img'] ?>" alt="Second slide" width="500" height="600">
         <div class="carousel-caption d-none d-md-block">
-          <h1>Welcome To Unique Diagnostics & Pathology Laboratory</h1>
-          <h2>We are one of the leading pathology laboratories in Navi Mumbai. We offer a comprehensive range of clinical, and laboratory tests and profiles.</h2>
+          <h1><?php echo $arr1['banner_heading'] ?></h1>
+          <!-- <h1>Welcome To Unique Diagnostics & Pathology Laboratory</h1> -->
+          <h2><?php echo $arr1['banner_content'] ?></h2>
+          <!-- <h2>We are one of the leading pathology laboratories in Navi Mumbai. We offer a comprehensive range of clinical, and laboratory tests and profiles.</h2> -->
           <a href="#about" class="btn-get-started scrollto">Get Started</a>
         </div>
       </div>
       <div class="carousel-item">
         <img class="d-block w-100 imgCarousle" src="admin/dist/img/gallery/<?php echo $arr2['gallery_img'] ?>" alt="Third slide" width="500" height="600">
         <div class="carousel-caption d-none d-md-block">
-          <h1>We Offering High-Quality Accurate Tests At Affordable Prices.</h1>
-          <h2>We are driven by a patient care philosophy to provide the best diagnostic center experience Pathology Tests, Health Check-up Packages, Home Sample Collection</h2>
+          <h1><?php echo $arr2['banner_heading'] ?></h1>
+          <!-- <h1>We Offering High-Quality Accurate Tests At Affordable Prices.</h1> -->
+          <h2><?php echo $arr2['banner_content'] ?></h2>
+          <!-- <h2>We are driven by a patient care philosophy to provide the best diagnostic center experience Pathology Tests, Health Check-up Packages, Home Sample Collection</h2> -->
           <a href="#about" class="btn-get-started scrollto">Get Started</a>
         </div>
       </div>
