@@ -27,7 +27,7 @@
           <li><a class="nav-link scrollto aboutUsNav" href="about_us.php">About Us</a></li>
           <li><a class="nav-link scrollto service" href="services.php">Services</a></li>
           <li><a class="nav-link scrollto package" href="packages.php">Package</a></li>
-          <li><a class="nav-link scrollto gallery" href="gallery.php">Gallery</a></li>
+          <li><a class="nav-link scrollto gallary" href="gallery.php">Gallery</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a href="#">Drop Down 1</a></li>

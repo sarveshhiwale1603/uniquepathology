@@ -1,7 +1,7 @@
 
 <?php
 session_start();
-include("../include/config.php");
+include("../assets/include/config.php");
 if(isset($_POST['login'])){
 $email=$_POST['email'];
 $password1=$_POST['password'];
@@ -81,10 +81,10 @@ border-bottom-right-radius: .3rem;
 <section class="h-100 gradient-form" style="background-color: #eee;">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col-xl-10">
+      <div class="col-8">
         <div class="card rounded-3 text-black">
           <div class="row g-0">
-            <div class="col-lg-6">
+            <div class="col-lg-12">
               <div class="card-body p-md-5 mx-md-4">
 
                 <div class="text-center">
@@ -115,10 +115,7 @@ border-bottom-right-radius: .3rem;
 
               </div>
             </div>
-            <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
-              <div class="text-white px-3 py-4 p-md-5 mx-md-4">
-                <h5 class="mb-4">Welcome to SACHIN ENTERPRISE</h5>
-              </div>
+            
             </div>
           </div>
         </div>

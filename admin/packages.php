@@ -8,26 +8,12 @@ if(isset($_POST['add_package'])){
   $amount=$_POST['amount'];
   $id=$_GET['eid'];
 
-  if(empty(($_FILES['portfolio_image']['tmp_name'])) && ($_POST['portImage']) && ($_GET['eid'])){
-    $id=$_GET['eid'];
-    $dnk = $_POST['portImage'];
-    
-    $sql=mysqli_query($conn,"update `packages` SET `treatment_name`='$treatment_name',`link`='$treatment',`image`='$dnk ' WHERE id='$id'");    
-    }
-   
-  else if(!empty($_FILES['portfolio_image']['tmp_name']) && ($_POST['portImage']) || !empty($_FILES['portfolio_image']['tmp_name']) && (empty($_POST['portImage']) && ($_GET['eid']))){
-    $id=$_GET['eid'];
-
-    $sql=mysqli_query($conn,"update `packages` SET `treatment_name`='$treatment_name',`label`='$label',`description`='$description',`amount`='$amount' WHERE id='$id'");
-  }else{
-    
-  $sql=mysqli_query($conn,"insert into packages (treatment_name,label,description,amount) values('$treatment_name','$label','$description','$amount')");}
-  
-  if($sql==1){
-     header("location:packages.php");
-  }else{
-      mysqli_error($conn);
-  }
+  $sql="UPDATE `packages` SET `treatment_name`='$treatment_name',`description`='$description',`label`='$label',`amount`='$amount' WHERE id='$id'";
+  if (mysqli_query($conn, $sql)){
+    echo "<script> alert ('New record has been added successfully !');</script>";
+ } else {
+    echo "<script> alert ('connection failed !');</script>";
+ }
 
 }
 
