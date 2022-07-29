@@ -64,14 +64,15 @@
                 </p>
               </a>
             </li>
-            <!-- <li class="nav-item">
-              <a href="enquires.php" class="nav-link">
-                <i class="nav-icon fas fa-users text-green"></i>
+            <li class="nav-item">
+              <a href="gallery.php" class="nav-link">
+              <i class="nav-icon fa-solid fa-image text-skyblue"></i>
+                <!-- <i class="nav-icon fas fa-users text-green"></i> -->
                 <p>
-                 Enquires
+                Gallery
                 </p>
               </a>
-            </li> -->
+            </li>
             <!-- <li class="nav-item">
               <a href="sales.php" class="nav-link">
                 <i class="nav-icon fas fa-store text-red"></i>

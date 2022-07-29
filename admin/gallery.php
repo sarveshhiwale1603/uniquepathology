@@ -17,17 +17,17 @@ if(isset($_POST['portfolio_add'])){
    
   else if(!empty($_FILES['portfolio_image']['tmp_name']) && ($_POST['portImage']) || !empty($_FILES['portfolio_image']['tmp_name']) && (empty($_POST['portImage']) && ($_GET['eid']))){
     $id=$_GET['eid'];
-    $loc="../assets/img/gallary/".$file;
+    $loc="../assets/img/gallery/".$file;
     move_uploaded_file($filedet,$loc);
     $sql=mysqli_query($conn,"update `portfolio` SET `company_name`='$company_name',`link`='$website_link',`image`='$file' WHERE id='$id'");
   }else{
 
-  $loc="../assets/img/gallary/".$file;
+  $loc="../assets/img/gallery/".$file;
   move_uploaded_file($filedet,$loc);
   $sql=mysqli_query($conn,"insert into portfolio (company_name,link,image) values('$company_name','$website_link','$file')");}
   
   if($sql==1){
-     header("location:gallary.php");
+     header("location:gallery.php");
   }else{
       mysqli_error($conn);
   }
@@ -38,7 +38,7 @@ if(isset($_GET['delid'])){
   $id=mysqli_real_escape_string($conn,$_GET['delid']);
   $sql=mysqli_query($conn,"delete from portfolio where id='$id'");
   if($sql=1){
-    header("location:gallary.php");
+    header("location:gallery.php");
   }
 }
 
@@ -112,12 +112,12 @@ if(isset($_GET['eid'])){
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1 class="m-0">Gallary</h1>
+              <h1 class="m-0">gallery</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active">Gallary</li>
+                <li class="breadcrumb-item active">gallery</li>
               </ol>
             </div><!-- /.col -->
           </div><!-- /.row -->
@@ -131,7 +131,7 @@ if(isset($_GET['eid'])){
             <div class="col-12 grid-margin">
               <div class="card">
                 <div class="card-header">
-                <h4 class="card-title">Add Gallary Images</h4>  
+                <h4 class="card-title">Add gallery Images</h4>  
                 </div>
                 <div class="card-body">
                   <form class="form-sample" method="post" enctype="multipart/form-data">
@@ -157,7 +157,7 @@ if(isset($_GET['eid'])){
                             <?php
                             if(isset($_GET['eid'])){
                               ?>
-                            <img src="../assets/img/gallary/<?php echo $image; ?>" width="100" height="100">
+                            <img src="../assets/img/gallery/<?php echo $image; ?>" width="100" height="100">
                             <input type="hidden" value="<?php echo $image; ?>" name="portImage">
                             <?php }  ?>
                             <input type="file" class="form-control" name="portfolio_image">
@@ -210,14 +210,14 @@ if(isset($_GET['eid'])){
                           <!-- <td>
                             <?php echo $row["link"]; ?>
                           </td> -->
-                          <td><img src="../assets/img/gallary/<?php echo $row["image"]; ?>" ></td>
+                          <td><img src="../assets/img/gallery/<?php echo $row["image"]; ?>" ></td>
                           <td>
                             <a class="btn btn-primary btn-rounded btn-icon"
-                              href="gallary.php?eid=<?php echo $row['id']; ?>" title="Edit Blog"><i
+                              href="gallery.php?eid=<?php echo $row['id']; ?>" title="Edit Blog"><i
                                 class="fa fa-edit"></i></a>
 
                             <a class="btn btn-danger btn-rounded btn-icon"
-                              href="gallary.php?delid=<?php echo $row['id']; ?>" onclick="return checkDelete()"
+                              href="gallery.php?delid=<?php echo $row['id']; ?>" onclick="return checkDelete()"
                               class="btn btn-primary btn-rounded btn-icon">
                               <i class="fas fa-trash"></i>
                           </td>

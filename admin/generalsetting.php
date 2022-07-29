@@ -205,7 +205,7 @@ if(isset($_POST['home3']))
               <div class="col-md-12">
                 <div class="card card-primary">
                   <div class="card-header">
-                    <h3 class="card-title">Gallery Image 1</h3>
+                    <h3 class="card-title">Index Image 1</h3>
 
                     <div class="card-tools">
                       <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -261,7 +261,7 @@ if(isset($_POST['home3']))
               <div class="col-md-12">
                 <div class="card card-primary">
                   <div class="card-header">
-                    <h3 class="card-title">Gallery Image 2</h3>
+                    <h3 class="card-title">Index Image 2</h3>
 
                     <div class="card-tools">
                       <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -317,7 +317,7 @@ if(isset($_POST['home3']))
               <div class="col-md-12">
                 <div class="card card-primary">
                   <div class="card-header">
-                    <h3 class="card-title">Gallery Image 3</h3>
+                    <h3 class="card-title">Index Image 3</h3>
 
                     <div class="card-tools">
                       <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
