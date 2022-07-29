@@ -80,6 +80,14 @@
                 </p>
               </a>
             </li>
+            <li class="nav-item">
+              <a href="packages_order.php" class="nav-link">
+              <i class="nav-icon fa-solid fa-box-open text-red"></i>
+                <p>
+               Package Orders
+                </p>
+              </a>
+            </li>
              <li class="nav-item">
               <a href="banner.php" class="nav-link">
                 <i class="nav-icon fas fa-envelope text-white"></i>
