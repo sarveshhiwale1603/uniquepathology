@@ -61,6 +61,11 @@ if(isset($_GET['eid'])){
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Packages-Unique Pathalogy</title>
+   <!-- Favicons -->
+   <link href="../assets/img/favicon.png" rel="icon">
+   <!-- <link rel="icon" type="image/x-icon" href="../assets/img/apple-touch-icon-ico"> -->
+
+  <!-- <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet"
