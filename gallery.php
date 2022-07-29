@@ -41,6 +41,10 @@
   .img-fluid{
     padding: .8rem;
   }
+  .gallary{
+  color: #4ab242 !important;
+  border-color: #4ab242 !important;
+}
 </style>
 </head>
 <body>
