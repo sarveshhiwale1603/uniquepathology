@@ -97,7 +97,7 @@
                                 </div>
                                 </div>
                               </div>
-                                <button class="subscribe mt-3" name="save">Book Appointment</button>
+                                <button class="subscribe mt-3" name="modalSave">Book Appointment</button>
                             </div>
 </form>
                         </div>

@@ -54,6 +54,9 @@
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
             <div class="container mt-5 pt-5">
+            <div class="section-title">
+          <h2>About Us</h2>
+        </div>
 
                 <div class="row">
                     <div
