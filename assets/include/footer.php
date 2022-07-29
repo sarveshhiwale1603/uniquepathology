@@ -46,7 +46,8 @@
         <h4>GET IN TOUCH</h4>
         <p> Shop No. 5, Twin Shelter CHS, Plot No.-84, Sector 6, Near ICICI Bank, Kopar Khairane, Navi Mumbai, Pin-400709</p>
         <form action="subscribe.php" method="POST">
-          <input type="email" name="email"><input type="submit" value="Subscribe">
+          <input type="email" style="border:none !important;" name="email">
+          <input type="submit" value="Subscribe">
         </form>
         <div class="social-links text-center text-md-right mt-4 mr-0 pr-0 ">
     <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
