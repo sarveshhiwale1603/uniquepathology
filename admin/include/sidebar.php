@@ -67,21 +67,20 @@
             <li class="nav-item">
               <a href="gallery.php" class="nav-link">
               <i class="nav-icon fa-solid fa-image text-skyblue"></i>
-                <!-- <i class="nav-icon fas fa-users text-green"></i> -->
                 <p>
                 Gallery
                 </p>
               </a>
             </li>
-            <!-- <li class="nav-item">
-              <a href="sales.php" class="nav-link">
-                <i class="nav-icon fas fa-store text-red"></i>
+           <li class="nav-item">
+              <a href="packages.php" class="nav-link">
+              <i class="nav-icon fa-solid fa-box-open text-red"></i>
                 <p>
-               Sales
+               Packages
                 </p>
               </a>
             </li>
-            <li class="nav-item">
+             <!-- <li class="nav-item">
               <a href="subscribe.php" class="nav-link">
                 <i class="nav-icon fas fa-envelope text-white"></i>
                 <p>
