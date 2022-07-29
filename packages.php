@@ -16,7 +16,7 @@ include("assets/include/config.php");
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Inner Page - Medilab Bootstrap Template</title>
+  <title>Packages-Unique Pathalogy</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -119,7 +119,7 @@ include("assets/include/config.php");
                             <div class="modal-body">
                                
                                 <h6 class="title mb-2 mt-2"><?php echo $arr['treatment_name'];?></h6>
-                                <!-- <p class="description">Lorem Ipsum Uinh Rtyh Ervty Cgyui.</p> -->
+                                <input class="form-control " name="heading" value="<?php echo $arr['treatment_name'];?>" type="hidden" placeholder="heading">
                                 <div class="row">
                                 <div class="col-6">
                                 <div class="form-group">
