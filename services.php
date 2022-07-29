@@ -74,7 +74,7 @@
           <div class="col-lg-3">
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">BIO - CHEMISTRY</a>
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-1">BIO - CHEMISTRY</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-2">PATHALOGY</a>
@@ -95,7 +95,7 @@
           </div>
           <div class="col-lg-9">
             <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
+              <div class="tab-pane " id="tab-1">
                 <div class="row gy-4">
                   <div class="column details order-lg-1">
                     <img src="assets\img\webp\bio_chemistry.jpg" alt="" class="img-fluid">
