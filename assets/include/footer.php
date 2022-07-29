@@ -22,12 +22,12 @@
       <div class="col-lg-2 col-md-6 footer-links">
         <h4>OUR SERVICES</h4>
         <ul>
-          <li><i class="bx bx-chevron-right"></i> <a class="nav-link" href="services.php">BIO - CHEMISTRY</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">PATHOLOGY</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a class="nav-link" href="services.php">MICROBIOLOGY</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a class="nav-link" href="services.php">SEROLOGY</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a class="nav-link" href="services.php">HORMONES</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a class="nav-link" href="services.php">COAGULATION</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="services.php">BIO - CHEMISTRY</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="services.php">PATHOLOGY</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="services.php">MICROBIOLOGY</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="services.php">SEROLOGY</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="services.php">HORMONES</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="services.php">COAGULATION</a></li>
         </ul>
       </div>
 
