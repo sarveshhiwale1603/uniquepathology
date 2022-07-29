@@ -22,13 +22,13 @@ include("assets/include/config.php");
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Unique Pathology</title>
+  <title>Unique Pathology - Index</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link  rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
   <link
@@ -118,6 +118,7 @@ include("assets/include/config.php");
           <!-- <h1>We Offering High-Quality Accurate Tests At Affordable Prices.</h1> -->
           <h2><?php echo $arr2['banner_content'] ?></h2>
           <!-- <h2>We are driven by a patient care philosophy to provide the best diagnostic center experience Pathology Tests, Health Check-up Packages, Home Sample Collection</h2> -->
+          <!-- <a href="#about" class="btn-get-started scrollto">Get Started</a> -->
         </div>
       </div>
     </div>
