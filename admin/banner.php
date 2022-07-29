@@ -1,4 +1,4 @@
-<?php
+<?php 
 include('../assets/include/config.php');
 
 if(isset($_POST['home1']))
