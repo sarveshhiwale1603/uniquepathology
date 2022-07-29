@@ -60,7 +60,7 @@ if(isset($_GET['eid'])){
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Admin | Dashboard</title>
+  <title>Admin | Packages</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet"
@@ -115,7 +115,7 @@ if(isset($_GET['eid'])){
             </div><!-- /.col -->
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                 <li class="breadcrumb-item active">Packages</li>
               </ol>
             </div><!-- /.col -->
