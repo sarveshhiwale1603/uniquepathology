@@ -1,5 +1,5 @@
 <?php 
-include('../assets/include/config.php');
+include('include/config.php');
 
 if(isset($_POST['home1']))
 {

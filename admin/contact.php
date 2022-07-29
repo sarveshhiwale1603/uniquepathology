@@ -1,5 +1,5 @@
 <?php
-include("../assets/include/config.php");
+include("include/config.php");
 if(isset($_GET['gen'])){
   $id=mysqli_real_escape_string($conn,$_GET['gen']);
   $sql=mysqli_query($conn,"update leads set `is_sales`='1' where id='$id'");

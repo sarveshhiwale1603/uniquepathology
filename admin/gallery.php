@@ -1,5 +1,5 @@
 <?php session_start();
-include("../assets/include/config.php");
+include("include/config.php");
 
 if(isset($_POST['portfolio_add'])){
   $file=$_FILES['portfolio_image']['name'];    

@@ -1,5 +1,5 @@
 <?php session_start();
-include("../assets/include/config.php");
+include("include/config.php");
 
 if(isset($_POST['add_package'])){
   $treatment_name=$_POST['treatment_name'];
