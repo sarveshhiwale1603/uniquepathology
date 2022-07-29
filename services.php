@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Unique Pathology - Services</title>
+  <title>Services-Unique Pathology</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -116,18 +116,14 @@
                   </div>
                 </div>
               </div>
+            
               <div class="tab-pane" id="tab-2">
                 <div class="row gy-4">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Et blanditiis nemo veritatis excepturi</h3>
-                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata
-                      raqer a videna mareta paulona marka</p>
-                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt
-                      est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt
-                      eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
+                  <div class="column  order-1 order-lg-2">
+                    <img src="assets\img\webp\pathalogy.webp" alt="" class="img-fluid">
+                    <h3 class="pt-3">Pathalogy</h3>
+                    <p>Pathology is a branch of medical science primarily concerning the cause, origin, and nature of disease. It involves the examination of tissues, organs, bodily fluids, and autopsies in order to study and diagnose disease.</p>
+                    <p>General pathology describes a complex and broad field that involves the study of the mechanisms behind cell and tissue injury and understanding how the body responds to and repairs injury. Examples of areas that may be studied include necrosis, neoplasia, wound healing, inflammation and how cells adapt to injury. Thorough understanding in these areas is applied in the diagnosis of disease. General pathology is also the term used to describe anatomical and clinical pathology.</p>
                   </div>
                 </div>
               </div>

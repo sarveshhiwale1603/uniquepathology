@@ -22,7 +22,7 @@ include("assets/include/config.php");
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Unique Pathology - Index</title>
+  <title>Unique Pathology</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -100,7 +100,6 @@ include("assets/include/config.php");
           <h2><?php echo $arr['banner_content'] ?></h2>
           <!-- <h2>We Try To Make Our Maximum Us Of Our Experience,Accumulate Potential, Knowledge Of Modern Equipment
             Handling For Accuracy.</h2> -->
-          <a href="#about" class="btn-get-started scrollto">Get Started</a>
         </div>
       </div>
       <div class="carousel-item active">
@@ -110,7 +109,6 @@ include("assets/include/config.php");
           <!-- <h1>Welcome To Unique Diagnostics & Pathology Laboratory</h1> -->
           <h2><?php echo $arr1['banner_content'] ?></h2>
           <!-- <h2>We are one of the leading pathology laboratories in Navi Mumbai. We offer a comprehensive range of clinical, and laboratory tests and profiles.</h2> -->
-          <a href="#about" class="btn-get-started scrollto">Get Started</a>
         </div>
       </div>
       <div class="carousel-item">
@@ -120,7 +118,6 @@ include("assets/include/config.php");
           <!-- <h1>We Offering High-Quality Accurate Tests At Affordable Prices.</h1> -->
           <h2><?php echo $arr2['banner_content'] ?></h2>
           <!-- <h2>We are driven by a patient care philosophy to provide the best diagnostic center experience Pathology Tests, Health Check-up Packages, Home Sample Collection</h2> -->
-          <a href="#about" class="btn-get-started scrollto">Get Started</a>
         </div>
       </div>
     </div>

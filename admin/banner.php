@@ -57,7 +57,7 @@ if(isset($_POST['home3']))
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Admin | Banner</title>
+  <title>Banner-Unique Pathalogy</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet"

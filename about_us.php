@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Unique Pathology - About Us</title>
+    <title>About Us-Unique Pathology</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -54,6 +54,9 @@
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
             <div class="container mt-5 pt-5">
+            <div class="section-title">
+          <h2>About Us</h2>
+        </div>
 
                 <div class="row">
                     <div
