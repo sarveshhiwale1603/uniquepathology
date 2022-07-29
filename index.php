@@ -10,7 +10,7 @@ include("assets/include/config.php");
    $arr=mysqli_fetch_array($sql); 
    $sql1=mysqli_query($conn,"select * from general_setting where id='2'"); 
    $arr1=mysqli_fetch_array($sql1); 
-   $sql2=mysqli_query($conn,"select * from general_setting where id='3  '");  
+   $sql2=mysqli_query($conn,"select * from general_setting where id='3'");  
    $arr2=mysqli_fetch_array($sql2); 
  
 
