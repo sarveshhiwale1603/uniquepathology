@@ -28,7 +28,7 @@ background: #fccb90;
 background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
 
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+background: linear-gradient(to right,#4ab242 ,#00B712,#63D471,#80FF72);
 }
 
 @media (min-width: 768px) {
@@ -56,8 +56,9 @@ border-bottom-right-radius: .3rem;
               <div class="card-body p-md-5 mx-md-4">
 
                 <div class="text-center">
-                  <img src="dist\img\SE_logo 00123.webp"
-                    style="width: 100px;" alt="logo"><h6>SACHIN ENTERPRISE</h6>
+                  <img src="../assets\img\webp\footerlogo.png"
+                    style="width: 60%;" alt="logo">
+                    <!-- <h6>SACHIN ENTERPRISE</h6> -->
                 </div><br>
 
                 <form>
@@ -71,7 +72,7 @@ border-bottom-right-radius: .3rem;
 
 
                   <div class="text-center pt-1 mb-5 pb-1">
-                    <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Submit</button>
+                    <button class="btn btn-block fa-lg  mb-3" type="submit" style="background:#4ab242; color:white;">Submit</button>
                     <a class="text-muted" href="adminlogin.php">Login Your Account</a>
                   </div>
 

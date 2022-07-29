@@ -88,8 +88,9 @@ border-bottom-right-radius: .3rem;
               <div class="card-body p-md-5 mx-md-4">
 
                 <div class="text-center">
-                  <img src="dist\img\SE_logo 00123.webp"
-                    style="width: 100px;" alt="logo"><h6>SACHIN ENTERPRISE</h6>
+                  <img src="../assets\img\webp\footerlogo.png"
+                    style="width:40%;" alt="logo">
+                    <!-- <h6>UNIQUE PATHOLOGY</h6> -->
                 </div><br>
 
                 <form method="post">
@@ -108,7 +109,8 @@ border-bottom-right-radius: .3rem;
                   </div>
 
                   <div class="text-center pt-1 mb-5 pb-1">
-                    <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="login" name="login" id="login" value="login">Login</button>
+                    <button class="btn btn-block mb-3" type="login" name="login" id="login" value="login" style="background:#4ab242; color:white">Login</button>
+                    <br>
                     <a class="text-muted" href="forgetpassword.php">Forgot password?</a>
                   </div>
                 </form>
