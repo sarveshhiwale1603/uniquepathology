@@ -71,7 +71,7 @@ if( mail($sendTo,$subject,$emailText, "From:" .$from)){
 
     if($sql==1){
         echo '<script>alert("data successfully submitted");</script>';
-        header("location:clientlogin.php");
+        header("location:adminlogin.php");
     }else {
         echo '<script>alert("oops...somthing went wrong");</script>';
     }
