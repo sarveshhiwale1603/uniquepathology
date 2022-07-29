@@ -41,7 +41,7 @@ include('include/config.php');
     <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
     </div>
 
-    <!-- Navbar -->[]
+    <!-- Navbar -->
     <?php include"include/header.php" ?>
   
     <!-- Main Sidebar Container -->
@@ -77,10 +77,14 @@ include('include/config.php');
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box">
               <span class="info-box-icon bg-info elevation-1"><i class="fa fa-envelope-open-text"></i></span>
+              <?php
+              $query=mysqli_query($conn,"select * from subscribe");
+               $count1=mysqli_num_rows($query);
+                ?>
               <div class="info-box-content">
-                <span class="info-box-text">Open</span>
+                <span class="info-box-text">Subscribers</span>
                 <span class="info-box-number">
-                  10
+                <?php echo $count1; ?>
                 </span>
               </div>
               <!-- /.info-box-content -->
@@ -90,11 +94,14 @@ include('include/config.php');
           <!-- /.col -->
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
-              <span class="info-box-icon bg-danger elevation-1"><i class="fa fa-spinner"></i></span>
-
+              <span class="info-box-icon bg-danger elevation-1"><i class="fa fa-calendar"></i></span>
+              <?php
+              $query=mysqli_query($conn,"select * from make_an_appointment");
+               $count2=mysqli_num_rows($query);
+                ?>
               <div class="info-box-content">
-                <span class="info-box-text">In Process</span>
-                <span class="info-box-number">41,410</span>
+                <span class="info-box-text">Appointments</span>
+                <span class="info-box-number"><?php echo $count2; ?></span>
               </div>
               <!-- /.info-box-content -->
             </div>
@@ -107,11 +114,14 @@ include('include/config.php');
 
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
-              <span class="info-box-icon bg-success elevation-1"><i class="fa fa-pause"></i></span>
-
+              <span class="info-box-icon bg-success elevation-1"><i class="fa fa-check"></i></span>
+              <?php
+              $query=mysqli_query($conn,"select * from treatment_order");
+               $count3=mysqli_num_rows($query);
+                ?>
               <div class="info-box-content">
-                <span class="info-box-text">On Hold</span>
-                <span class="info-box-number">760</span>
+                <span class="info-box-text">Orders</span>
+                <span class="info-box-number"><?php echo $count3; ?></span>
               </div>
               <!-- /.info-box-content -->
             </div>
@@ -120,11 +130,14 @@ include('include/config.php');
           <!-- /.col -->
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
-              <span class="info-box-icon bg-warning elevation-1"><i class="fa fa-check"></i></span>
-
+              <span class="info-box-icon bg-warning elevation-1"><i class=" text-white fa fa-phone"></i></span>
+              <?php
+              $query=mysqli_query($conn,"select * from contact_us");
+               $count4=mysqli_num_rows($query);
+                ?>
               <div class="info-box-content">
-                <span class="info-box-text">Closed</span>
-                <span class="info-box-number">2,000</span>
+                <span class="info-box-text">Contacts</span>
+                <span class="info-box-number"><?php echo $count4; ?></span>
               </div>
               <!-- /.info-box-content -->
             </div>
@@ -132,109 +145,6 @@ include('include/config.php');
           </div>
           <!-- /.col -->
         </div>
-        <!-- /.row -->
-
-        <div class="row">
-          <div class="col-md-12">
-            <div class="card">
-              <div class="card-header">
-                <h5 class="card-title">Monthly Report</h5>
-
-                <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                    <i class="fas fa-minus"></i>
-                  </button>
-                  <button type="button" class="btn btn-tool" data-card-widget="remove">
-                    <i class="fas fa-times"></i>
-                  </button>
-                </div>
-              </div>
-              <!-- /.card-header -->
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-md-8">
-                    <p class="text-center">
-                      <strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong>
-                    </p>
-
-                    <div class="chart"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                      <!-- Sales Chart Canvas -->
-                      <canvas id="salesChart" height="180" style="height: 180px; display: block; width: 680px;" width="680" class="chartjs-render-monitor"></canvas>
-                    </div>
-                    <!-- /.chart-responsive -->
-                  </div>
-                  <!-- /.col -->
-                  <div class="col-md-4">
-                    <p class="text-center">
-                      <strong>Goal Completion</strong>
-                    </p>
-
-                    <div class="progress-group">
-                      New GST Registration
-                      <span class="float-right"><b>160</b>/200</span>
-                      <div class="progress progress-sm">
-                        <div class="progress-bar bg-primary" style="width: 80%"></div>
-                      </div>
-                    </div>
-                    <!-- /.progress-group -->
-
-                    <div class="progress-group">
-                      GST Filling
-                      <span class="float-right"><b>310</b>/400</span>
-                      <div class="progress progress-sm">
-                        <div class="progress-bar bg-danger" style="width: 75%"></div>
-                      </div>
-                    </div>
-
-                    <!-- /.progress-group -->
-                    <div class="progress-group">
-                      <span class="progress-text">MSME/Udhyog Registration</span>
-                      <span class="float-right"><b>480</b>/800</span>
-                      <div class="progress progress-sm">
-                        <div class="progress-bar bg-success" style="width: 60%"></div>
-                      </div>
-                    </div>
-
-                    <!-- /.progress-group -->
-                    <div class="progress-group">
-                      Professional Tax
-                      <span class="float-right"><b>250</b>/500</span>
-                      <div class="progress progress-sm">
-                        <div class="progress-bar bg-warning" style="width: 50%"></div>
-                      </div>
-                    </div>
-                    <!-- /.progress-group -->
-                  </div>
-                  <!-- /.col -->
-                </div>
-                <!-- /.row -->
-              </div>
-            </div>
-            <!-- /.card -->
-          </div>
-          <!-- /.col -->
-        </div>
-        <!-- /.row -->
-
-        <div class="card card-danger">
-              <div class="card-header">
-                <h3 class="card-title">Pie Chart</h3>
-
-                <div class="card-tools">
-                  <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                    <i class="fas fa-minus"></i>
-                  </button>
-                  <button type="button" class="btn btn-tool" data-card-widget="remove">
-                    <i class="fas fa-times"></i>
-                  </button>
-                </div>
-              </div>
-              <div class="card-body"><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
-                <canvas id="pieChart" style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%; display: block; width: 487px;" width="487" height="250" class="chartjs-render-monitor"></canvas>
-              </div>
-              <!-- /.card-body -->
-            </div>
-  
         <!-- /.row -->
       </div><!--/. container-fluid -->
     </section>
