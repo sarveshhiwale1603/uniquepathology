@@ -61,6 +61,8 @@ if(isset($_GET['eid'])){
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Admin - Gallery</title>
+    <!-- Favicons -->
+    <link href="../assets/img/favicon.png" rel="icon">
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet"

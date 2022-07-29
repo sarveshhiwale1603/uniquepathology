@@ -4,9 +4,7 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
       <a href="index3.html" class="brand-link">
-        <img src="../assets\img\webp\footerlogo.png" alt="" class="brand-image  elevation-1"
-          style="opacity: .2; background:white">
-        <span class="brand-text font-weight-light">AdminLTE 3</span>
+     <img src="../assets\img\webp\footerlogo.png" width="100%" class="rounded pl-1" style="background-color:white;" alt="">
       </a>
 
       <!-- Sidebar -->
