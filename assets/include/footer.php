@@ -6,7 +6,7 @@
     <div class="row">
 
       <div class="col-lg-4 col-md-6 footer-contact">
-        <img src="assets\img\webp\footerlogo.png" alt="" style="width:90%">
+        <a href="index.php"><img src="assets\img\webp\footerlogo.png" alt="" style="width:90%"></a>
         <p>We are one of the leading pathology laboratory in navi Mumbai. We offer a comprehensive range of clinical, laboratory.</p>
         <div class="footer-content-card mt-2">
             <i class="bi bi-telephone" style="color:#4ab242;"></i> 

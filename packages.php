@@ -119,26 +119,26 @@ include("assets/include/config.php");
                             <div class="modal-body">
                                
                                 <h6 class="title mb-2 mt-2"><?php echo $arr['treatment_name'];?></h6>
-                                <input class="form-control " name="heading" value="<?php echo $arr['treatment_name'];?>" type="hidden" placeholder="heading">
+                                <input class="form-control " name="heading" value="<?12hp echo $arr['treatment_name'];?>" type="hidden" placeholder="heading">
                                 <div class="row">
-                                <div class="col-6">
+                                <div class="col-12">
                                 <div class="form-group">
                                     <input class="form-control name" name="name" required type="text" placeholder="Name">
                                 </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12">
                                 <div class="form-group">
                                     <input class="form-control email" name="email" required type="email" placeholder="Email Address">
                                 </div>
                               </div>
                               </div>
                               <div class="row">
-                                <div class="col-6">
+                                <div class="col-12">
                                 <div class="form-group">
                                   <input class="form-control phone" name="phone" required type="tel" placeholder="Phone No.">
                                 </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12">
                                 <div class="form-group">
                                   <input class="form-control date" name="date" required type="date" placeholder="Date">
                                 </div>

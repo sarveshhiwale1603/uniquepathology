@@ -93,8 +93,8 @@ include("assets/include/config.php");
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item">
-        <img class="d-block w-100 imgCarousle" src="admin/dist/img/gallery/<?php echo $arr['gallery_img'] ?>" alt="First slide" width="500" height="600">
-        <div class="carousel-caption d-none d-md-block">
+        <img class="d-block w-100 imgCarousle" src="admin/dist/img/gallery/<?php echo $arr['gallery_img'] ?>" alt="First slide"  >
+        <div class="carousel-caption  ">
           <h1><?php echo $arr['banner_heading'] ?></h1>
           <!-- <h1>We Provide Best Solution.</h1> -->
           <h2><?php echo $arr['banner_content'] ?></h2>
@@ -103,8 +103,8 @@ include("assets/include/config.php");
         </div>
       </div>
       <div class="carousel-item active">
-        <img class="d-block w-100 imgCarousle" src="admin/dist/img/gallery/<?php echo $arr1['gallery_img'] ?>" alt="Second slide" width="500" height="600">
-        <div class="carousel-caption d-none d-md-block">
+        <img class="d-block w-100 imgCarousle" src="admin/dist/img/gallery/<?php echo $arr1['gallery_img'] ?>" alt="Second slide"  >
+        <div class="carousel-caption ">
           <h1><?php echo $arr1['banner_heading'] ?></h1>
           <!-- <h1>Welcome To Unique Diagnostics & Pathology Laboratory</h1> -->
           <h2><?php echo $arr1['banner_content'] ?></h2>
@@ -112,8 +112,8 @@ include("assets/include/config.php");
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100 imgCarousle" src="admin/dist/img/gallery/<?php echo $arr2['gallery_img'] ?>" alt="Third slide" width="500" height="600">
-        <div class="carousel-caption d-none d-md-block">
+        <img class="d-block w-100 imgCarousle" src="admin/dist/img/gallery/<?php echo $arr2['gallery_img'] ?>" alt="Third slide"  >
+        <div class="carousel-caption ">
           <h1><?php echo $arr2['banner_heading'] ?></h1>
           <!-- <h1>We Offering High-Quality Accurate Tests At Affordable Prices.</h1> -->
           <h2><?php echo $arr2['banner_content'] ?></h2>
