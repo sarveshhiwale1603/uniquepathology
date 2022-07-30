@@ -3,7 +3,8 @@
     <div class="container d-flex justify-content-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope"></i> <a href="mailto:info@uniquepathology.com">info@uniquepathology.com</a>
-        <i class="bi bi-phone"></i> <a href="tel:+91 97024 52857 | +91 9702472247">+91 97024 52857 | +91 9702472247</a>
+        <i class="bi bi-phone"></i> <a href="tel:+91 97024 52857">+91 97024 52857</a> 
+        <i class="bi bi-whatsapp"></i><a href="https://wa.me/+91 9702472247" target="_blank">+91 9702472247</a>
       </div>
       <div class="d-none d-lg-flex social-links align-items-center">
         <a href="https://www.facebook.com/UniqueDiagnosticsPathologyLab/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
