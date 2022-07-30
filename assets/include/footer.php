@@ -9,14 +9,17 @@
         <img src="assets\img\webp\footerlogo.png" alt="" style="width:90%">
         <p>We are one of the leading pathology laboratory in navi Mumbai. We offer a comprehensive range of clinical, laboratory.</p>
         <div class="footer-content-card mt-2">
-            <i class="bi bi-telephone"></i> 
-           <a href="tel:+91 97024 52857">+91 97024 52857</a>
-           <i class="bi bi-whatsapp"></i> <a href="https://wa.me/+91 9702472247" target="_blank">+91 9702472247</a>
+            <i class="bi bi-telephone" style="color:#4ab242;"></i> 
+           <a href="tel:+91 97024 52857" style="color:#777777;">+91 97024 52857</a>
+            </div>
+           <div class="footer-content-card">
+           <i class="bi bi-whatsapp"  style="color:#4ab242;"></i>
+            <a href="https://wa.me/+91 9702472247" style="color:#777777;" target="_blank">+91 9702472247</a>
            </div>
            <br>
            <div class="footer-content-card">
-           <i class="bi bi-envelope"></i> 
-           <a href="mailto:uniquekk709@gmail.com">uniquekk709@gmail.com</a>
+           <i class="bi bi-envelope" style="color:#4ab242;"></i> 
+           <a href="mailto:uniquekk709@gmail.com" style="color:#777777;">uniquekk709@gmail.com</a>
         </div>
       </div>
       
@@ -61,13 +64,14 @@
   </div>
 </div>
 
-<div class="container d-md-flex py-4">
-
-  <div class="copyright text-center pt-1">
+<div class="container py-4">
+<div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-12 copyright text-start pt-1 copyright_footer">
     Copyright &copy; 2022<a href="https://unique.tectignis.in" target="_blank"><b> Unique Diagnostics</b> </a>| All Rights Reserved
   </div>
-  <div class="credits">
+  <div class="col-lg-6 col-md-6 col-sm-12 text-end copyright_footer">
       Designed by <a href="https://tectignis.in" target="_blank">TECTIGNIS IT SOLUTIONS.</a>
+    </div>
     </div>
 </div>
 </footer><!-- End Footer -->

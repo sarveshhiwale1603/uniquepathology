@@ -1655,6 +1655,14 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
+@media (max-width: 992px) {
+  .copyright_footer {
+ text-align: center !important;
+  }
+}
+
+
 #footer {
   color: #444444;
   font-size: 14px;
