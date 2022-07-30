@@ -87,6 +87,7 @@ if(isset($_GET['gen'])){
                                                 <th>Sr.No</th>
                                                 <th>Name</th>
                                                 <th>Email</th>
+                                                <th>Phone Number</th>
                                                 <th>Subject</th>
                                                  <th>Message</th>
                                             </tr>
@@ -102,6 +103,7 @@ if(isset($_GET['gen'])){
                                                 <td> <?php echo $count;?> </td>
                                                 <td> <?php echo $arr['name'];?> </td>
                                                 <td> <?php echo $arr['email'];?></td>
+                                                <td><?php echo $arr['phone'];?></td>
                                                 <td> <?php echo $arr['subject'];?></td>
                                                 <td> <?php echo $arr['message'];?></td>
                                                   <a href="contact_us.php?gen=<?php echo $arr['id'];?>">
