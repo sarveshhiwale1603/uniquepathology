@@ -93,7 +93,7 @@ include("assets/include/config.php");
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item">
-        <img class="d-block w-100 imgCarousle" src="admin/dist/img/gallery/<?php echo $arr['gallery_img'] ?>" alt="First slide"  >
+        <img class="d-block w-100 imgCarousle" style=" opacity: .7;"  src="admin/dist/img/gallery/<?php echo $arr['gallery_img'] ?>" alt="First slide" width="1000" height="586">
         <div class="carousel-caption  ">
           <h1><?php echo $arr['banner_heading'] ?></h1>
           <!-- <h1>We Provide Best Solution.</h1> -->
@@ -103,8 +103,8 @@ include("assets/include/config.php");
         </div>
       </div>
       <div class="carousel-item active">
-        <img class="d-block w-100 imgCarousle" src="admin/dist/img/gallery/<?php echo $arr1['gallery_img'] ?>" alt="Second slide"  >
-        <div class="carousel-caption ">
+        <img class="d-block w-100 imgCarousle" style=" opacity: .7;" src="admin/dist/img/gallery/<?php echo $arr1['gallery_img'] ?>" alt="Second slide" width="1000" height="586">
+        <div class="carousel-caption  ">
           <h1><?php echo $arr1['banner_heading'] ?></h1>
           <!-- <h1>Welcome To Unique Diagnostics & Pathology Laboratory</h1> -->
           <h2><?php echo $arr1['banner_content'] ?></h2>
@@ -112,8 +112,8 @@ include("assets/include/config.php");
         </div>
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100 imgCarousle" src="admin/dist/img/gallery/<?php echo $arr2['gallery_img'] ?>" alt="Third slide"  >
-        <div class="carousel-caption ">
+        <img class="d-block w-100 imgCarousle" style=" opacity: .7;"  src="admin/dist/img/gallery/<?php echo $arr2['gallery_img'] ?>" alt="Third slide" width="1000" height="586">
+        <div class="carousel-caption  ">
           <h1><?php echo $arr2['banner_heading'] ?></h1>
           <!-- <h1>We Offering High-Quality Accurate Tests At Affordable Prices.</h1> -->
           <h2><?php echo $arr2['banner_content'] ?></h2>
@@ -158,21 +158,21 @@ include("assets/include/config.php");
                     <div class="icon-box mt-4 mt-xl-0">
                       <i class="fa fa-user-md"></i>
                       <h4>Best Checkup</h4>
-                      <p>Best of the technologies, Best of the reagents, Best of the procedures, Best of systems, Best of trained and highly focused Pathologists, Biochemists, Scientists and Technologists gives Best of the Quality  </p>
+                      <p>Best of the technologies, Best of the reagents, Best of the procedures, Best of systems.</p>
                     </div>
                   </div>
                   <div class="col-xl-4 d-flex align-items-stretch">
                     <div class="icon-box mt-4 mt-xl-0">
                       <i class="fas fa-award"></i>
                       <h4>Qualityful Service</h4>
-                      <p>Best of the technologies, Best of the reagents, Best of the procedures, Best of systems, Best of trained and highly focused Pathologists, Biochemists, Scientists and Technologists gives Best of the Quality  </p>
+                      <p>Well trained and highly focused Pathologists, Biochemists, Scientists and Technologists gives Best of the Quality.</p>
                     </div>
                   </div>
                   <div class="col-xl-4 d-flex align-items-stretch">
                     <div class="icon-box mt-4 mt-xl-0">
                       <i class='bx bx-support'></i>
                       <h4>24 x 7 Available</h4>
-                      <p>Laboratory functions 24X7. Air-cargo functions 24 X 7.</p>
+                      <p> 24 X 7 Available Laboratory functions & Our helpful staff is always ready to Facilitate you.</p>
                     </div>
                   </div>
                 </div>
@@ -206,42 +206,12 @@ include("assets/include/config.php");
               <p class="py-2">The profile comprises of a variety of test combinations which are specific to a disease or
                 disorder as well as wellness profiles that are used for health and fitness screening.</p>
               <div class="row text-center">
-                <div class="col-sm-4">
+                <!-- <div class="col-sm-4">
                   <div class="ht-rounded-skill">
                     <div class="rounded-skill skill" data-circle-starttime="0" data-circle-maxvalue="60"
                       data-circle-dialwidth="12" data-circle-type="progress">
                       <div class="skill-bg" style="border-width: 12px;">
-                        <div class="skill-num" data-value="60">60%</div>
-                      </div>
-                      <div class="spinner-holder-one animate-0-25-a">
-                        <div class="spinner-holder-two animate-0-25-b" style="transform: rotate(0deg);">
-                          <div class="skill-spinner" style="border-width: 12px;"></div>
-                        </div>
-                      </div>
-                      <div class="spinner-holder-one animate-25-50-a">
-                        <div class="spinner-holder-two animate-25-50-b" style="transform: rotate(0deg);">
-                          <div class="skill-spinner" style="border-width: 12px;"></div>
-                        </div>
-                      </div>
-                      <div class="spinner-holder-one animate-50-75-a">
-                        <div class="spinner-holder-two animate-50-75-b" style="transform: rotate(-54deg);">
-                          <div class="skill-spinner" style="border-width: 12px;"></div>
-                        </div>
-                      </div>
-                      <div class="spinner-holder-one animate-75-100-a">
-                        <div class="spinner-holder-two animate-75-100-b">
-                          <div class="skill-spinner" style="border-width: 12px;"></div>
-                        </div>
-                      </div>
-                    </div> <span class="skill-title">Diagnostic Center</span>
-                  </div>
-                </div>
-                <div class="col-sm-4 xs-mt-5">
-                  <div class="ht-rounded-skill">
-                    <div class="rounded-skill skill" data-circle-starttime="0" data-circle-maxvalue="80"
-                      data-circle-dialwidth="12" data-circle-type="progress">
-                      <div class="skill-bg" style="border-width: 12px;">
-                        <div class="skill-num" data-value="80">80%</div>
+                        <div class="skill-num" data-value="93">93%</div>
                       </div>
                       <div class="spinner-holder-one animate-0-25-a">
                         <div class="spinner-holder-two animate-0-25-b" style="transform: rotate(0deg);">
@@ -259,14 +229,44 @@ include("assets/include/config.php");
                         </div>
                       </div>
                       <div class="spinner-holder-one animate-75-100-a">
-                        <div class="spinner-holder-two animate-75-100-b" style="transform: rotate(-72deg);">
+                        <div class="spinner-holder-two animate-75-100-b" style="transform: rotate(-30deg);">
+                          <div class="skill-spinner" style="border-width: 12px;"></div>
+                        </div>
+                      </div>
+                    </div> <span class="skill-title">Diagnostic Center</span>
+                  </div>
+                </div> -->
+                <div class="col-sm-6 xs-mt-5">
+                  <div class="ht-rounded-skill">
+                    <div class="rounded-skill skill" data-circle-starttime="0" data-circle-maxvalue="80"
+                      data-circle-dialwidth="12" data-circle-type="progress">
+                      <div class="skill-bg" style="border-width: 12px;">
+                        <div class="skill-num" data-value="97">97%</div>
+                      </div>
+                      <div class="spinner-holder-one animate-0-25-a">
+                        <div class="spinner-holder-two animate-0-25-b" style="transform: rotate(0deg);">
+                          <div class="skill-spinner" style="border-width: 12px;"></div>
+                        </div>
+                      </div>
+                      <div class="spinner-holder-one animate-25-50-a">
+                        <div class="spinner-holder-two animate-25-50-b" style="transform: rotate(0deg);">
+                          <div class="skill-spinner" style="border-width: 12px;"></div>
+                        </div>
+                      </div>
+                      <div class="spinner-holder-one animate-50-75-a">
+                        <div class="spinner-holder-two animate-50-75-b" style="transform: rotate(0deg);">
+                          <div class="skill-spinner" style="border-width: 12px;"></div>
+                        </div>
+                      </div>
+                      <div class="spinner-holder-one animate-75-100-a">
+                        <div class="spinner-holder-two animate-75-100-b" style="transform: rotate(-15deg);">
                           <div class="skill-spinner" style="border-width: 12px;"></div>
                         </div>
                       </div>
                     </div> <span class="skill-title">Success Case</span>
                   </div>
                 </div>
-                <div class="col-sm-4 xs-mt-5">
+                <div class="col-sm-6 xs-mt-5">
                   <div class="ht-rounded-skill">
                     <div class="rounded-skill skill" data-circle-starttime="0" data-circle-maxvalue="90"
                       data-circle-dialwidth="12" data-circle-type="progress">
@@ -289,7 +289,7 @@ include("assets/include/config.php");
                         </div>
                       </div>
                       <div class="spinner-holder-one animate-75-100-a">
-                        <div class="spinner-holder-two animate-75-100-b" style="transform: rotate(-36deg);">
+                        <div class="spinner-holder-two animate-75-100-b" style="transform: rotate(-40deg);">
                           <div class="skill-spinner" style="border-width: 12px;"></div>
                         </div>
                       </div>

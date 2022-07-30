@@ -70,7 +70,7 @@
     Copyright &copy; 2022<a href="https://unique.tectignis.in" target="_blank"><b> Unique Diagnostics</b> </a>| All Rights Reserved
   </div>
   <div class="col-lg-6 col-md-6 col-sm-12 text-end copyright_footer">
-      Designed by <a href="https://tectignis.in" target="_blank">TECTIGNIS IT SOLUTIONS.</a>
+      Designed by <a href="https://tectignis.in" target="_blank"><b>Tectignis IT Solutions.</b></a>
     </div>
     </div>
 </div>
