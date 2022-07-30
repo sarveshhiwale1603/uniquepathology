@@ -85,7 +85,7 @@ include("assets/include/config.php");
                     <h1><?php echo $arr['treatment_name'];?></h1>
                     <p><?php echo $arr['description'];?></p>
                     <h3 class="mt-2 "><?php echo $arr['amount'];?>/-</h3>
-                    <div class="text-center align-items-center mt-4"><button type="submit" class="appointment-btn show-modal" data-toggle="modal" data-target="#<?php echo $arr['id'];?>" style="margin-left:0px !important;" name="save">Order Now</button></div>
+                    <div class="text-center align-items-center mt-4"><button type="submit" class="appointment-btn show-modal orderid" data-toggle="modal" data-target="#<?php echo $arr['id'];?>" style="margin-left:0px !important;" name="save">Order Now</button></div>
                   </div>
                 </div>
                 <?php } ?>
@@ -108,18 +108,18 @@ include("assets/include/config.php");
             <div class="modal-box">
                 <!-- Modal -->
                 <?php
-   $sql=mysqli_query($conn,"select * from packages");   
-   while($arr=mysqli_fetch_array($sql)){
+   $sql1=mysqli_query($conn,"select * from packages");   
+   while($arr1=mysqli_fetch_array($sql1)){
   ?>
-                <div class="modal fade"  id="<?php echo $arr['id'];?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal fade"  id="<?php echo $arr1['id'];?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog modal-md" role="document">
                         <div class="modal-content">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                            <form action="indexDB.php" method="post">
+                            <form action="packagesDB.php" method="post">
                             <div class="modal-body">
                                
-                                <h6 class="title mb-2 mt-2"><?php echo $arr['treatment_name'];?></h6>
-                                <input class="form-control " name="heading" value="<?12hp echo $arr['treatment_name'];?>" type="hidden" placeholder="heading">
+                                <h6 class="title mb-2 mt-2"><?php echo $arr1['treatment_name'];?></h6>
+                                <input class="form-control" name="heading" value="<?php echo $arr1['treatment_name']; ?>" type="hidden" placeholder="heading">
                                 <div class="row">
                                 <div class="col-12">
                                 <div class="form-group">
@@ -135,7 +135,7 @@ include("assets/include/config.php");
                               <div class="row">
                                 <div class="col-12">
                                 <div class="form-group">
-                                  <input class="form-control phone" name="phone" required type="tel" placeholder="Phone No.">
+                                  <input class="form-control phone" name="phone" required type="tel" placeholder="Phone No." minlength="10" maxlength="10">
                                 </div>
                                 </div>
                                 <div class="col-12">
@@ -144,7 +144,7 @@ include("assets/include/config.php");
                                 </div>
                                 </div>
                               </div>
-                                <button class="subscribe mt-3" name="order">Order Now</button>
+                                <button class="subscribe mt-3" name="order" type="submit">Order Now</button>
                             </div>
                               </form>
                         </div>
@@ -186,7 +186,6 @@ include("assets/include/config.php");
   <script>
     document.getElementById("")
   </script>
-
 </body>
 
 </html>
