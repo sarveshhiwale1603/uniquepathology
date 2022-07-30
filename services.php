@@ -98,7 +98,7 @@
               <div class="tab-pane mb-3 pb-3 active show" id="tab-1">
                 <div class="row gy-4">
                   <div class="column pb-3 details order-lg-1">
-                    <img src="assets\img\webp\bio_chemistry.jpg" alt="" class="img-fluid">
+                    <img src="assets\img\webp\bio_chemistry.webp" alt="" class="img-fluid">
 
                     <h3 class="mt-4">Bio Chemistry</h3>
                     <p>The kidneys are one of the most vital organs in your body, with one of the most important jobs.
@@ -129,7 +129,7 @@
               <div class="tab-pane" id="tab-3">
                 <div class="row gy-4">
                   <div class="column pb-3 order-1 order-lg-2">
-                    <img src="assets\img\webp\microbiology.jpg" alt="" class="img-fluid">
+                    <img src="assets\img\webp\microbiology.webp" alt="" class="img-fluid">
                     <h3 class="pt-3">Micro Biology</h3>
                     <p> Diagnostic microbiology is a specialty in the sciences which focuses on applying microbiology to
                       medical diagnosis. Like other microbiologists, diagnostic microbiologists tend to work in a lab
@@ -144,7 +144,7 @@
               <div class="tab-pane" id="tab-4">
                 <div class="row gy-4">
                   <div class="column pb-3 order-1 order-lg-2">
-                    <img src="assets\img\webp\microbiology.jpg" alt="" class="img-fluid">
+                    <img src="assets\img\webp\microbiology.webp" alt="" class="img-fluid">
                     <h3 class="pt-3">Serology</h3>
                     <p>Ultrasound imaging (sonography) uses high-frequency sound waves to view inside the body. Because
                       ultrasound images are captured in real-time, they can also show movement of the body's internal
@@ -163,7 +163,7 @@
               <div class="tab-pane" id="tab-5">
                 <div class="row gy-4">
                   <div class="column pb-3 order-1 order-lg-2">
-                    <img src="assets\img\webp\hormones.jpg" alt="" class="img-fluid">
+                    <img src="assets\img\webp\hormones.webp" alt="" class="img-fluid">
                     <h3 class="pt-3">Hormones</h3>
                     <p>
                       Complete Hormones is the most comprehensive urinary hormone metabolism evaluation designed to
@@ -176,7 +176,7 @@
               <div class="tab-pane mb-3" id="tab-6">
                 <div class="row gy-4">
                   <div class="column pb-3 order-1 order-lg-2">
-                    <img src="assets\img\webp\coagulation.jpg" alt="" class="img-fluid">
+                    <img src="assets\img\webp\coagulation.webp" alt="" class="img-fluid">
                     <h3 class="pt-3">Coagulation</h3>
                     <p>
                       The circulatory system has to be self-sealing, otherwise continued blood loss from even the
