@@ -60,7 +60,7 @@ include("assets/include/config.php");
     .carousel-caption {
       position: absolute;
       /* right: 15%; */
-      bottom: 20px;
+      top: 200px;
       left: 15% !important;
       z-index: 10;
       padding-top: 20px;

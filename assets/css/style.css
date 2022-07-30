@@ -540,6 +540,8 @@ h6 {
     font-size: 28px;
     line-height: 36px;
   }
+  
+
 
   .carousel h2 {
     font-size: 18px;
@@ -553,13 +555,20 @@ h6 {
     font-size: 20px !important;
     line-height: 26px !important;
     font-weight: 900;
+    top: 50px !important;
   }
+  .carousel img {
+    height: 400px !important;
+   }
 
   .carousel h2 {
     font-size: 17px !important;
     line-height: 20px !important;
     font-weight: 600;
     margin-bottom: 5px !important;
+  }
+  .carousel-caption{
+    top: 110px !important;
   }
 }
 
