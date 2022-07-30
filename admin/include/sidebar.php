@@ -36,7 +36,7 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
             </li>
             <li class="nav-item">
              <a href="banner.php" class="nav-link <?= $page == 'banner.php' ? 'active':'' ?>">
-               <i class="nav-icon fas fa-envelope text-white"></i>
+              <i class="nav-icon fa-solid fa-image text-skyblue"></i>
                <p>
               Banner
                </p>

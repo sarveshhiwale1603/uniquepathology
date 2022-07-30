@@ -11,8 +11,8 @@ if(isset($_POST['home1']))
     move_uploaded_file($filedet,$loc);
     $sql="UPDATE general_setting SET gallery_img='$file', banner_heading='$banner_heading', banner_content='$banner_content' where id ='1'";
     if (mysqli_query($conn, $sql)){
-      echo "<script> alert ('New record has been added successfully !');</script>";
-   } else {
+   } 
+   else {
       echo "<script> alert ('connection failed !');</script>";
    }
 }
@@ -27,8 +27,9 @@ if(isset($_POST['home2']))
     move_uploaded_file($filedet,$loc);
     $sql="UPDATE general_setting SET gallery_img='$filee', banner_heading='$banner_heading', banner_content='$banner_content' where id ='2'";
     if (mysqli_query($conn, $sql)){
-      echo "<script> alert ('New record has been added successfully !');</script>";
-   } else {
+      
+   }
+    else {
       echo "<script> alert ('connection failed !');</script>";
    }
 }
@@ -43,8 +44,8 @@ if(isset($_POST['home3']))
     move_uploaded_file($filedet,$loc);
     $sql="UPDATE general_setting SET gallery_img='$fileee', banner_heading='$banner_heading', banner_content='$banner_content' where id ='3'";
     if (mysqli_query($conn, $sql)){
-      echo "<script> alert ('New record has been added successfully !');</script>";
-   } else {
+   } 
+   else {
       echo "<script> alert ('connection failed !');</script>";
    }
 }
