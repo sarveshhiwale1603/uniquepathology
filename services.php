@@ -95,9 +95,9 @@
           </div>
           <div class="col-lg-9">
             <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
+              <div class="tab-pane mb-3 pb-3 active show" id="tab-1">
                 <div class="row gy-4">
-                  <div class="column details order-lg-1">
+                  <div class="column pb-3 details order-lg-1">
                     <img src="assets\img\webp\bio_chemistry.jpg" alt="" class="img-fluid">
 
                     <h3 class="mt-4">Bio Chemistry</h3>
@@ -118,7 +118,7 @@
             
               <div class="tab-pane" id="tab-2">
                 <div class="row gy-4">
-                  <div class="column  order-1 order-lg-2">
+                  <div class="column pb-3 order-1 order-lg-2">
                     <img src="assets\img\webp\pathalogy.webp" alt="" class="img-fluid">
                     <h3 class="pt-3">Pathalogy</h3>
                     <p>Pathology is a branch of medical science primarily concerning the cause, origin, and nature of disease. It involves the examination of tissues, organs, bodily fluids, and autopsies in order to study and diagnose disease.</p>
@@ -128,7 +128,7 @@
               </div>
               <div class="tab-pane" id="tab-3">
                 <div class="row gy-4">
-                  <div class="column  order-1 order-lg-2">
+                  <div class="column pb-3 order-1 order-lg-2">
                     <img src="assets\img\webp\microbiology.jpg" alt="" class="img-fluid">
                     <h3 class="pt-3">Micro Biology</h3>
                     <p> Diagnostic microbiology is a specialty in the sciences which focuses on applying microbiology to
@@ -143,7 +143,7 @@
               </div>
               <div class="tab-pane" id="tab-4">
                 <div class="row gy-4">
-                  <div class="col order-1 order-lg-2">
+                  <div class="column pb-3 order-1 order-lg-2">
                     <img src="assets\img\webp\microbiology.jpg" alt="" class="img-fluid">
                     <h3 class="pt-3">Serology</h3>
                     <p>Ultrasound imaging (sonography) uses high-frequency sound waves to view inside the body. Because
@@ -162,7 +162,7 @@
               </div>
               <div class="tab-pane" id="tab-5">
                 <div class="row gy-4">
-                  <div class="column order-1 order-lg-2">
+                  <div class="column pb-3 order-1 order-lg-2">
                     <img src="assets\img\webp\hormones.jpg" alt="" class="img-fluid">
                     <h3 class="pt-3">Hormones</h3>
                     <p>
@@ -173,9 +173,9 @@
                   </div>
                 </div>
               </div>
-              <div class="tab-pane" id="tab-6">
+              <div class="tab-pane mb-3" id="tab-6">
                 <div class="row gy-4">
-                  <div class="column order-1 order-lg-2">
+                  <div class="column pb-3 order-1 order-lg-2">
                     <img src="assets\img\webp\coagulation.jpg" alt="" class="img-fluid">
                     <h3 class="pt-3">Coagulation</h3>
                     <p>

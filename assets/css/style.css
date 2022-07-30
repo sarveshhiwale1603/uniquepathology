@@ -547,12 +547,19 @@ h6 {
     margin-bottom: 30px;
   }
 }
-/* 
-@media (max-height: 600px) {
-  .carousel {
-    height: 110vh;
+
+@media (max-width: 767px) {
+  .carousel h1 {
+    font-size: 17px !important;
+    line-height: 26px !important;
   }
-} */
+
+  .carousel h2 {
+    font-size: 15px !important;
+    line-height: 20px !important;
+    margin-bottom: 5px !important;
+  }
+}
 
 /*--------------------------------------------------------------
 # Sections General

@@ -24,7 +24,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
       
-      <h1 class="logo me-auto"><img src="assets/img/webp/footerlogo.png" alt="" width="100%" height="100%"></h1>
+      <h1 class="logo me-auto"><a href="index.php"><img src="assets/img/webp/footerlogo.png" alt="" width="100%" height="100%"></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       
@@ -81,24 +81,24 @@
                                 <h6 class="title mb-2 mt-2">Book Appointment</h6>
                                 <!-- <p class="description">Lorem Ipsum Uinh Rtyh Ervty Cgyui.</p> -->
                                 <div class="row">
-                                <div class="col-6">
+                                <div class="col-12">
                                 <div class="form-group">
                                     <input class="form-control name" name="name" type="text" required placeholder="Name">
                                 </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12">
                                 <div class="form-group">
                                     <input class="form-control email" name="email" type="email" required placeholder="Email Address">
                                 </div>
                               </div>
                               </div>
                               <div class="row">
-                                <div class="col-6">
+                                <div class="col-12">
                                 <div class="form-group">
                                   <input class="form-control phone" name="phone" type="tel" required placeholder="Phone No.">
                                 </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-12">
                                 <div class="form-group">
                                   <input class="form-control date" name="date" type="date" required placeholder="Date">
                                 </div>
