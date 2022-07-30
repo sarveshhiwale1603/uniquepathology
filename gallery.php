@@ -88,8 +88,8 @@
   ?>
             <div class="col-lg-3 col-md-4">
               <div class="gallery-item">
-                <a href="admin/dist/img/gallery/<?php echo $arr['image'];?>" class="galelry-lightbox">
-                  <img src="admin/dist/img/gallery/<?php echo $arr['image'];?>" alt="" class="img-fluid">
+                <a href="assets/img/gallery/<?php echo $arr['image'];?>" class="galelry-lightbox">
+                  <img src="assets/img/gallery/<?php echo $arr['image'];?>" alt="" class="img-fluid">
                 </a>
               </div>
             </div>
