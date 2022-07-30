@@ -93,7 +93,7 @@ include("assets/include/config.php");
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item">
-        <img class="d-block w-100 imgCarousle" style=" opacity: .7;"  src="admin/dist/img/gallery/<?php echo $arr['gallery_img'] ?>" alt="First slide" width="1000"  style="height:586 !important">
+        <img class="d-block w-100 imgCarousle" style=" opacity: .7;"  src="admin/dist/img/gallery/<?php echo $arr['gallery_img'] ?>" alt="First slide" width="1000"  style="height:100% !important">
         <div class="carousel-caption  ">
           <h1><?php echo $arr['banner_heading'] ?></h1>
           <!-- <h1>We Provide Best Solution.</h1> -->
@@ -103,7 +103,7 @@ include("assets/include/config.php");
         </div>
       </div>
       <div class="carousel-item active">
-        <img class="d-block w-100 imgCarousle" style=" opacity: .7;" src="admin/dist/img/gallery/<?php echo $arr1['gallery_img'] ?>" alt="Second slide" width="1000"   style="height:586 !important">
+        <img class="d-block w-100 imgCarousle" style=" opacity: .7;" src="admin/dist/img/gallery/<?php echo $arr1['gallery_img'] ?>" alt="Second slide" width="1000"   style="height:100% !important">
         <div class="carousel-caption  ">
           <h1><?php echo $arr1['banner_heading'] ?></h1>
           <!-- <h1>Welcome To Unique Diagnostics & Pathology Laboratory</h1> -->
