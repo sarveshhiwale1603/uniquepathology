@@ -1,4 +1,4 @@
-<?php session_start();
+<?php 
 include("include/config.php");
 
 if(isset($_POST['add_package'])){

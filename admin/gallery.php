@@ -1,6 +1,5 @@
-<?php session_start();
+<?php 
 include("include/config.php");
-
 if(isset($_POST['portfolio_add'])){
   $file=$_FILES['portfolio_image']['name'];    
   $company_name=$_POST['company_name'];
@@ -124,7 +123,7 @@ if(isset($_GET['eid'])){
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1 class="m-0">gallery</h1>
+              <h1 class="m-0">Gallery</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
@@ -143,7 +142,7 @@ if(isset($_GET['eid'])){
             <div class="col-12 grid-margin">
               <div class="card">
                 <div class="card-header">
-                <h4 class="card-title">Add gallery Images</h4>  
+                <h4 class="card-title">Add Gallery Images</h4>  
                 </div>
                 <div class="card-body">
                   <form class="form-sample" method="post" enctype="multipart/form-data">
