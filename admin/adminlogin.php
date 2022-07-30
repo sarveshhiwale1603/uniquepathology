@@ -101,13 +101,13 @@ border-bottom-right-radius: .3rem;
                   <div class="form-outline mb-4">
                     <input type="email" id="email" class="form-control"
                     name="email"
-                      placeholder="Enter Email address">
+                      placeholder="Enter Email address" required>
                     <label class="form-label" >Email</label>
                   </div>
 
                   <div class="form-outline mb-4">
                     <input type="password" id="password" name="password" class="form-control" placeholder="Enter Password">
-                    <label class="form-label">Password</label>
+                    <label class="form-label" required>Password</label>
                   </div>
 
                   <div class="text-center pt-1 mb-5 pb-1">

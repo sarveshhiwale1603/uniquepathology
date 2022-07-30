@@ -10,8 +10,8 @@ if(isset($_POST['add_package'])){
 
   $sql="UPDATE `packages` SET `treatment_name`='$treatment_name',`description`='$description',`label`='$label',`amount`='$amount' WHERE id='$id'";
   if (mysqli_query($conn, $sql)){
-    echo "<script> alert ('New record has been added successfully !');</script>";
- } else {
+ } 
+ else {
     echo "<script> alert ('connection failed !');</script>";
  }
 
@@ -296,9 +296,9 @@ if(isset($_GET['eid'])){
     $(function () {
       $("#example1").DataTable({
         "responsive": true,
-        "lengthChange": false,
+        "lengthChange": true,
         "autoWidth": false,
-        "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+        // "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
       }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
       $('#example2').DataTable({
         "paging": true,

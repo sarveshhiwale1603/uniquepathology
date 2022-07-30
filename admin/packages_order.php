@@ -34,6 +34,10 @@ if(isset($_GET['gen'])){
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
+        <!-- Preloader  -->
+<div class="preloader flex-column justify-content-center align-items-center">
+      <img class="animation__shake" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+    </div>
   <!-- Navbar -->
   <?php include("include/header.php"); ?>
 
@@ -162,8 +166,8 @@ if(isset($_GET['gen'])){
 <script>
   $(function () {
     $("#example1").DataTable({
-      "responsive": true, "lengthChange": false, "autoWidth": false,
-      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+      "responsive": true, "lengthChange": true, "autoWidth": false,
+      // "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
     }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
     $('#example2').DataTable({
       "paging": true,
