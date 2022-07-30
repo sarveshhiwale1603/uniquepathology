@@ -6,8 +6,7 @@
         <i class="bi bi-phone"></i> <a href="tel:+91 97024 52857 | +91 9702472247">+91 97024 52857 | +91 9702472247</a>
       </div>
       <div class="d-none d-lg-flex social-links align-items-center">
-        <a href="https://www.facebook.com/UniqueDiagnosticsPathologyLab/" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.facebook.com/UniqueDiagnosticsPathologyLab/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
       </div>
     </div>
   </div>
@@ -76,24 +75,24 @@
                                 <div class="row">
                                 <div class="col-6">
                                 <div class="form-group">
-                                    <input class="form-control name" name="name" type="text" placeholder="Name">
+                                    <input class="form-control name" name="name" type="text" required placeholder="Name">
                                 </div>
                                 </div>
                                 <div class="col-6">
                                 <div class="form-group">
-                                    <input class="form-control email" name="email" type="email" placeholder="Email Address">
+                                    <input class="form-control email" name="email" type="email" required placeholder="Email Address">
                                 </div>
                               </div>
                               </div>
                               <div class="row">
                                 <div class="col-6">
                                 <div class="form-group">
-                                  <input class="form-control phone" name="phone" type="tel" placeholder="Phone No.">
+                                  <input class="form-control phone" name="phone" type="tel" required placeholder="Phone No.">
                                 </div>
                                 </div>
                                 <div class="col-6">
                                 <div class="form-group">
-                                  <input class="form-control date" name="date" type="date" placeholder="Date">
+                                  <input class="form-control date" name="date" type="date" required placeholder="Date">
                                 </div>
                                 </div>
                               </div>

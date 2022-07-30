@@ -123,24 +123,24 @@ include("assets/include/config.php");
                                 <div class="row">
                                 <div class="col-6">
                                 <div class="form-group">
-                                    <input class="form-control name" name="name" type="text" placeholder="Name">
+                                    <input class="form-control name" name="name" required type="text" placeholder="Name">
                                 </div>
                                 </div>
                                 <div class="col-6">
                                 <div class="form-group">
-                                    <input class="form-control email" name="email" type="email" placeholder="Email Address">
+                                    <input class="form-control email" name="email" required type="email" placeholder="Email Address">
                                 </div>
                               </div>
                               </div>
                               <div class="row">
                                 <div class="col-6">
                                 <div class="form-group">
-                                  <input class="form-control phone" name="phone" type="tel" placeholder="Phone No.">
+                                  <input class="form-control phone" name="phone" required type="tel" placeholder="Phone No.">
                                 </div>
                                 </div>
                                 <div class="col-6">
                                 <div class="form-group">
-                                  <input class="form-control date" name="date" type="date" placeholder="Date">
+                                  <input class="form-control date" name="date" required type="date" placeholder="Date">
                                 </div>
                                 </div>
                               </div>

@@ -384,24 +384,24 @@ include("assets/include/config.php");
           <form action="indexDB.php" method="POST" role="form" class="php-email-form">
             <div class="row">
               <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                  data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                <input type="text" name="name" class="form-control" id="name" required placeholder="Your Name"
+                  data-rule="minlen:4" data-msg="Please enter at least 4 chars ">
                 <div class="validate"></div>
               </div>
               <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                <input type="email" class="form-control" name="email" id="email" required placeholder="Your Email"
                   data-rule="email" data-msg="Please enter a valid email">
                 <div class="validate"></div>
               </div>
             </div>
             <div class="row">
               <div class="col-md-6 form-group mt-3">
-                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone"
+                <input type="tel" class="form-control" name="phone" id="phone" required placeholder="Your Phone"
                   data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                 <div class="validate"></div>
               </div>
               <div class="col-md-6 form-group mt-3">
-                <input type="date" name="date" class="form-control datepicker" id="date"
+                <input type="date" name="date" class="form-control datepicker" required id="date"
                   placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                 <div class="validate"></div>
               </div>

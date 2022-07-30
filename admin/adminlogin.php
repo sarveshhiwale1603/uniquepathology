@@ -83,7 +83,7 @@ border-bottom-right-radius: .3rem;
 <section class="h-100 gradient-form" style="background-color: #eee;">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col-8">
+      <div class="col-5">
         <div class="card rounded-3 text-black">
           <div class="row g-0">
             <div class="col-lg-12">
