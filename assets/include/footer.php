@@ -10,7 +10,8 @@
         <p>We are one of the leading pathology laboratory in navi Mumbai. We offer a comprehensive range of clinical, laboratory.</p>
         <div class="footer-content-card mt-2">
             <i class="bi bi-telephone"></i> 
-           <a href="tel:+91 97024 52857 | +91 9702472247">+91 97024 52857 | +91 9702472247 </a>
+           <a href="tel:+91 97024 52857">+91 97024 52857</a>
+           <i class="bi bi-whatsapp"></i> <a href="https://wa.me/+91 9702472247" target="_blank">+91 9702472247</a>
            </div>
            <br>
            <div class="footer-content-card">
@@ -46,7 +47,7 @@
         <h4>GET IN TOUCH</h4>
         <p> Shop No. 5, Twin Shelter CHS, Plot No.-84, Sector 6, Near ICICI Bank, Kopar Khairane, Navi Mumbai, Pin-400709</p>
         <form action="subscribe.php" method="POST">
-          <input type="email" style="border:none !important;" name="email">
+          <input type="email" style="border:none !important;" name="email" required>
           <input type="submit" value="Subscribe">
         </form>
         <div class="social-links text-center text-md-right mt-4 mr-0 pr-0 ">
@@ -63,8 +64,10 @@
 <div class="container d-md-flex py-4">
 
   <div class="copyright text-center pt-1">
-    Copyright &copy; 2022 Unique Diagnostics by <a href="https://tectignis.in" target="_blank"><b> Tectignis IT Solutions</b> </a>| All Rights Reserved
+    Copyright &copy; 2022<a href="https://unique.tectignis.in" target="_blank"><b> Unique Diagnostics</b> </a>| All Rights Reserved
   </div>
- 
+  <div class="credits">
+      Designed by <a href="https://tectignis.in" target="_blank">TECTIGNIS IT SOLUTIONS.</a>
+    </div>
 </div>
 </footer><!-- End Footer -->

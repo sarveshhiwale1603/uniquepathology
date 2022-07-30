@@ -1810,6 +1810,12 @@ section {
   color: #fff;
   text-decoration: none;
 }
+#footer .credits {
+  float: right !important;
+  text-align: center !important;
+  font-size: 13px;
+  color: #444444;
+}
 .sectionTitle h6:before {
   content: "";
   position: absolute;
