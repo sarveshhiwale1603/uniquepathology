@@ -211,7 +211,7 @@ include("assets/include/config.php");
                     <div class="rounded-skill skill" data-circle-starttime="0" data-circle-maxvalue="60"
                       data-circle-dialwidth="12" data-circle-type="progress">
                       <div class="skill-bg" style="border-width: 12px;">
-                        <div class="skill-num" data-value="60">60%</div>
+                        <div class="skill-num" data-value="93">93%</div>
                       </div>
                       <div class="spinner-holder-one animate-0-25-a">
                         <div class="spinner-holder-two animate-0-25-b" style="transform: rotate(0deg);">
@@ -241,7 +241,7 @@ include("assets/include/config.php");
                     <div class="rounded-skill skill" data-circle-starttime="0" data-circle-maxvalue="80"
                       data-circle-dialwidth="12" data-circle-type="progress">
                       <div class="skill-bg" style="border-width: 12px;">
-                        <div class="skill-num" data-value="80">80%</div>
+                        <div class="skill-num" data-value="97">97%</div>
                       </div>
                       <div class="spinner-holder-one animate-0-25-a">
                         <div class="spinner-holder-two animate-0-25-b" style="transform: rotate(0deg);">
