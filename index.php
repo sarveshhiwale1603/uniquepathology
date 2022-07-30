@@ -397,7 +397,7 @@ include("assets/include/config.php");
             <div class="row">
               <div class="col-md-6 form-group mt-3">
                 <input type="tel" class="form-control" name="phone" id="phone" required placeholder="Your Phone"
-                  data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                  data-rule="minlen:4" data-msg="Please enter at least 4 chars" minlength="10" maxlength="10">
                 <div class="validate"></div>
               </div>
               <div class="col-md-6 form-group mt-3">

@@ -95,7 +95,7 @@
                               <div class="row">
                                 <div class="col-12">
                                 <div class="form-group">
-                                  <input class="form-control phone" name="phone" type="tel" required placeholder="Phone No.">
+                                  <input class="form-control phone" name="phone" type="tel" required placeholder="Phone No." minlength="10" maxlength="10">
                                 </div>
                                 </div>
                                 <div class="col-12">
