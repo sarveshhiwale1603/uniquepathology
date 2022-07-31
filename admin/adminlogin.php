@@ -78,12 +78,12 @@ border-bottom-right-radius: .3rem;
 }
 </style>
 </head>
-<body>
+<body  style="background-color: #eee;">
 
-<section class="h-100 gradient-form" style="background-color: #eee;">
+<section class="h-100 gradient-form">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col-5">
+      <div class="col-lg-5 col-md-8 col-sm-10">
         <div class="card rounded-3 text-black">
           <div class="row g-0">
             <div class="col-lg-12">
@@ -128,11 +128,9 @@ border-bottom-right-radius: .3rem;
   </div>
 </section>
 </body>
-<script>
 <!-- MDB -->
 <script
   type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js"
 ></script>
-</script>
 </html>

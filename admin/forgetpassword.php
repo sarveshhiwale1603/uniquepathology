@@ -138,9 +138,9 @@ border-bottom-right-radius: .3rem;
 }
 </style>
 </head>
-<body>
+<body  style="background-color: #eee;">
 
-<section class="h-100 gradient-form" style="background-color: #eee;">
+<section class="h-100 gradient-form">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col-xl-10">
@@ -194,11 +194,9 @@ border-bottom-right-radius: .3rem;
   </div>
 </section>
 </body>
-<script>
 <!-- MDB -->
 <script
   type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"
 ></script>
-</script>
 </html>
