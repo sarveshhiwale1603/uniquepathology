@@ -23,9 +23,8 @@ include("assets/include/config.php");
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-<!-- Google Fonts -->
-<link
+ <!-- Google Fonts -->
+ <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
 
@@ -44,12 +43,18 @@ include("assets/include/config.php");
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/ribbon.css" rel="stylesheet">
+  <!-- <link href="assets/css/ribbon.css" rel="stylesheet"> -->
   <link href="assets/css/shortcodes.css" rel="stylesheet">
   <style>
     .package{
   color: #4ab242 !important;
   border-color: #4ab242 !important;
+}
+@media (max-width:768px) {
+  .mbView{
+    
+    margin-left: 5px !important;
+  }
 }
   </style>
 </head>
@@ -77,7 +82,7 @@ include("assets/include/config.php");
    $sql=mysqli_query($conn,"select * from packages");   
    while($arr=mysqli_fetch_array($sql)){
   ?>
-                <div class="col-xl-4 d-flex pl-0 mt-5 align-items-stretch">
+                <div class="col-xl-4 d-flex pl-0 mbView mt-5 align-items-stretch">
                   <div class="icon-box mt-xl-0">
                   <div class="ribbon-corner ribbon-fold" style="z-index:1;" data-tor="place.left place.top"> <span><?php echo $arr['label'];?></span></div>
 
