@@ -80,6 +80,8 @@ if(isset($_GET['gen'])){
               </div>
               <!-- /.card-header -->
               <div class="card-body">
+              <div class="table-responsive pt-3">
+
               <table id="example1" class="table table-bordered table-striped">
                                         <thead>
                                             <tr>
@@ -119,6 +121,7 @@ if(isset($_GET['gen'])){
                                              
                                    
                                     </table>
+                         </div>
               </div>
               <!-- /.card-body -->
             </div>
