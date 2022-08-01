@@ -73,7 +73,18 @@ include("assets/include/config.php");
         .carousel {
              margin-bottom: 0 !important;
              /* height: 100vh !important; */
-            }}
+            }
+
+            #services {
+              margin-top:-80px !important;
+            }
+            #about {
+              margin-top:-80px !important;
+            }
+            #why-us {
+              margin-top:-80px !important;
+            }
+          }
   </style>
 </head>
 
@@ -236,7 +247,7 @@ include("assets/include/config.php");
                     </div> <span class="skill-title">Diagnostic Center</span>
                   </div>
                 </div> -->
-                <div class="col-sm-6 xs-mt-5">
+                <div class="col-6 ">
                   <div class="ht-rounded-skill">
                     <div class="rounded-skill skill" data-circle-starttime="0" data-circle-maxvalue="80"
                       data-circle-dialwidth="12" data-circle-type="progress">
@@ -266,7 +277,7 @@ include("assets/include/config.php");
                     </div> <span class="skill-title">Success Case</span>
                   </div>
                 </div>
-                <div class="col-sm-6 xs-mt-5">
+                <div class="col-6 ">
                   <div class="ht-rounded-skill">
                     <div class="rounded-skill skill" data-circle-starttime="0" data-circle-maxvalue="90"
                       data-circle-dialwidth="12" data-circle-type="progress">
