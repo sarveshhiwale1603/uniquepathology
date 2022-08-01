@@ -98,11 +98,11 @@
                                   <input class="form-control phone" name="phone" type="tel" required placeholder="Phone No." minlength="10" maxlength="10">
                                 </div>
                                 </div>
-                                <div class="col-12">
+                                <!-- <div class="col-12">
                                 <div class="form-group">
                                   <input class="form-control date" name="date" type="date" required placeholder="Date">
                                 </div>
-                                </div>
+                                </div> -->
                               </div>
                                 <button class="subscribe mt-3" name="modalSave">Book Appointment</button>
                             </div>

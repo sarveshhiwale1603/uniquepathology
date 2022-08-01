@@ -55,6 +55,10 @@ include("assets/include/config.php");
     
     margin-left: 5px !important;
   }
+.packageMargin{
+  padding-left:10px !important;
+  padding-right:10px !important;
+}
 }
   </style>
 </head>
@@ -74,7 +78,7 @@ include("assets/include/config.php");
           <h2>Packages</h2>
           <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
-        <div class="row">
+        <div class="row packageMargin">
           <div class="col-lg-12 col-md-12 col-sm-12 d-flex align-items-stretch">
             <div class="icon-boxes d-flex flex-column justify-content-center">
               <div class="row">
@@ -108,7 +112,7 @@ include("assets/include/config.php");
    <!-- Modal -->
 
    <div class="container">
-    <div class="row">
+    <div class="row" >
         <div class="col-md-12">
             <div class="modal-box">
                 <!-- Modal -->
@@ -143,11 +147,11 @@ include("assets/include/config.php");
                                   <input class="form-control phone" name="phone" required type="tel" placeholder="Phone No." minlength="10" maxlength="10">
                                 </div>
                                 </div>
-                                <div class="col-12">
+                                <!-- <div class="col-12">
                                 <div class="form-group">
                                   <input class="form-control date" name="date" required type="date" placeholder="Date">
                                 </div>
-                                </div>
+                                </div> -->
                               </div>
                                 <button class="subscribe mt-3" name="order" type="submit">Order Now</button>
                             </div>

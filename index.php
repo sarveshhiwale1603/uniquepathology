@@ -398,29 +398,29 @@ include("assets/include/config.php");
           </div>
           <form action="indexDB.php" method="POST" role="form" class="php-email-form">
             <div class="row">
-              <div class="col-md-6 form-group">
+              <div class="col-md-6 offset-3 form-group">
                 <input type="text" name="name" class="form-control" id="name" required placeholder="Your Name"
                   data-rule="minlen:4" data-msg="Please enter at least 4 chars ">
                 <div class="validate"></div>
               </div>
-              <div class="col-md-6 form-group mt-3 mt-md-0">
+              <div class="col-md-6 offset-3 form-group mt-3 ">
                 <input type="email" class="form-control" name="email" id="email" required placeholder="Your Email"
                   data-rule="email" data-msg="Please enter a valid email">
                 <div class="validate"></div>
               </div>
             </div>
             <div class="row">
-              <div class="col-md-6 form-group mt-3">
+              <div class="col-md-6 offset-3 form-group mt-3">
                 <input type="tel" class="form-control" name="phone" id="phone" required placeholder="Your Phone"
                   data-rule="minlen:4" data-msg="Please enter at least 4 chars" minlength="10" maxlength="10">
                 <div class="validate"></div>
               </div>
-              <div class="col-md-6 form-group mt-3">
-              <!-- onfocus="(this.type='date')" -->
+              <!-- <div class="col-md-6 form-group mt-3">
+              onfocus="(this.type='date')"
                 <input type="date"  name="date" class="form-control " required id=""
                   placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                 <div class="validate"></div>
-              </div>
+              </div> -->
             </div>
             <div class="mb-3">
               <div class="loading">Loading</div>
