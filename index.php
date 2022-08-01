@@ -483,8 +483,14 @@ include("assets/include/config.php");
         // echo "<script>window.location='index.php';</script>";
         ?>
         <!-- http_response_code(200); -->
-        <script>
-    swal("Good job!", "You clicked the button!", "success");
+        <script>swal({
+          icon:"success",
+                title: "Message Sent!",
+                text: "Thank you for contacting us.",
+                timer: 2000,
+                showConfirmButton: false,
+              });
+    // swal("Message Sent!", "Thank you for contacting us.", "success");
       
   </script>
   <?php
@@ -496,6 +502,42 @@ include("assets/include/config.php");
     }
 }
 ?>
+
+<?php
+    include('assets/include/config.php');
+    // Index
+    if(isset($_POST['modalSave']))
+    {
+        $name=$_POST['name'];
+        $email=$_POST['email'];
+        $phone=$_POST['phone'];
+        $date=$_POST['date'];
+    
+        $sql=mysqli_query($conn, "INSERT INTO `make_an_appointment`(`name`,`email`,`phone`,`date`) VALUES('$name','$email','$phone','$date')");
+    
+        if( $sql==1){
+        // echo "<script>window.location='index.php';</script>";
+        ?>
+        <!-- http_response_code(200); -->
+        <script>swal({
+          icon:"success",
+                title: "Message Sent!",
+                text: "Thank you for contacting us.",
+                timer: 2000,
+                showConfirmButton: false,
+              });
+    // swal("Message Sent!", "Thank you for contacting us.", "success");
+      
+  </script>
+  <?php
+    }
+    else{
+        echo "<script> alert('Connection Failed !');</script>";
+
+    }
+}
+?>
+
 <!-- 
   <script>
     function sweetalert() {
