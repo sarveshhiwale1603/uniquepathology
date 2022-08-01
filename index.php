@@ -416,7 +416,7 @@ include("assets/include/config.php");
                 <div class="validate"></div>
               </div>
               <div class="col-md-6 form-group mt-3">
-                <input type="text" onfocus="(this.type='date')" name="date" class="form-control datepicker" required id="date"
+                <input type="text" onfocus="(this.type='date')" name="date" class="form-control " required id=""
                   placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                 <div class="validate"></div>
               </div>
