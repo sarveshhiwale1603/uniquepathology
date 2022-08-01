@@ -7,10 +7,10 @@
     </footer> -->
     <footer class="main-footer">
       <div class="row">
-        <div class="col-md-6 text-right">
+        <div class="col-md-6">
         <strong>Copyright &copy; 2022. Unique Pathology</strong>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 text-end">
         Developed by <a href="http://tectignis.in" target="_blank" style="color:#869099 !important"> <b>Tectignis IT Solutions</b></a>
         </div>
       </div>
