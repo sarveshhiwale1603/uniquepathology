@@ -19,7 +19,7 @@
            <br>
            <div class="footer-content-card">
            <i class="bi bi-envelope" style="color:#4ab242;"></i> 
-           <a href="mailto:uniquekk709@gmail.com" style="color:#777777;">uniquekk709@gmail.com</a>
+           <a href="mailto:info@uniquepathology.com" style="color:#777777;">info@uniquepathology.com</a>
         </div>
       </div>
       
