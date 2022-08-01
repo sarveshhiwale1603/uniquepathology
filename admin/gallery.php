@@ -204,19 +204,6 @@ if(isset($_GET['eid'])){
                           <!-- <th>Website Link</th> -->
                           <th>Image</th>
                           <th>Action</th>
-                          <th>Action</th>
-                          <th>Action</th>
-                          <th>Action</th>
-                          <th>Action</th>
-                          <th>Action</th>
-                          <th>Action</th>
-                          <th>Action</th>
-                          <th>Action</th>
-                          <th>Action</th>
-                          <th>Action</th>
-                          <th>Action</th>
-                          <th>Action</th>
-
                         </tr>
                       </thead>
                       <tbody>
