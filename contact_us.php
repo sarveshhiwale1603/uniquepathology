@@ -106,7 +106,7 @@ include("assets/include/config.php");
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="contact_usDB.php" method="POST" class="php-email-form">
+            <form  method="POST" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -171,6 +171,42 @@ include("assets/include/config.php");
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  
+<?php
+     include('assets/include/config.php');
+     if(isset($_POST['save']))
+ {
+     $name=$_POST['name'];
+     $email=$_POST['email'];
+     $phone=$_POST['phone'];
+     $subject=$_POST['subject'];
+     $message=$_POST['message'];
+ 
+     $sql=mysqli_query($conn, "INSERT INTO `contact_us`(`name`,`email`,`phone`,`subject`,`message`) VALUES('$name','$email','$phone','$subject','$message')");
+ 
+     if( $sql==1){
+        // echo "<script>window.location='index.php';</script>";
+        ?>
+        <!-- http_response_code(200); -->
+        <script>swal({
+          icon:"success",
+                title: "Message Sent!",
+                text: "Thank you for contacting us.",
+                timer: 2000,
+                showConfirmButton: false,
+              });
+    // swal("Message Sent!", "Thank you for contacting us.", "success");
+      
+  </script>
+  <?php
+    }
+    else{
+        echo "<script> alert('Connection Failed !');</script>";
+
+    }
+}
+?>
+
 </body>
 
 </html>

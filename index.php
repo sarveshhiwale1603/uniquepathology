@@ -397,24 +397,23 @@ include("assets/include/config.php");
             <h2 class="title text-white">Book An <span>Appointment Now!</span></h2>
           </div>
           <form  method="POST" role="form" class="php-email-form">
-            <div class="row">
-              <div class="col-md-6 offset-3 form-group">
+            <div class="row justify-content-center">
+              <div class="col-md-8 col-lg-8 col-sm-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" required placeholder="Your Name"
                   data-rule="minlen:4" data-msg="Please enter at least 4 chars ">
                 <div class="validate"></div>
               </div>
-              <div class="col-md-6 offset-3 form-group mt-3 ">
+              <div class="col-md-8 col-lg-8 col-sm-6 form-group mt-3 ">
                 <input type="email" class="form-control" name="email" id="email" required placeholder="Your Email"
                   data-rule="email" data-msg="Please enter a valid email">
                 <div class="validate"></div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 offset-3 form-group mt-3">
+              <div class="col-md-8 col-lg-8 col-sm-6 form-group mt-3">
                 <input type="tel" class="form-control" name="phone" id="phone" required placeholder="Your Phone"
                   data-rule="minlen:4" data-msg="Please enter at least 4 chars" minlength="10" maxlength="10">
                 <div class="validate"></div>
-              </div>
+            </div>
+
               <!-- <div class="col-md-6 form-group mt-3">
               onfocus="(this.type='date')"
                 <input type="date"  name="date" class="form-control " required id=""
@@ -458,7 +457,7 @@ include("assets/include/config.php");
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
 
 
 
@@ -475,16 +474,22 @@ include("assets/include/config.php");
     $name=$_POST['name'];
     $email=$_POST['email'];
     $phone=$_POST['phone'];
-    $date=$_POST['date'];
+    // $date=$_POST['date'];
 
-    $sql=mysqli_query($conn, "INSERT INTO `make_an_appointment`(`name`,`email`,`phone`,`date`) VALUES('$name','$email','$phone','$date')");
+    $sql=mysqli_query($conn, "INSERT INTO `make_an_appointment`(`name`,`email`,`phone`) VALUES('$name','$email','$phone')");
 
     if( $sql==1){
         // echo "<script>window.location='index.php';</script>";
         ?>
         <!-- http_response_code(200); -->
-        <script>
-    swal("Good job!", "You clicked the button!", "success");
+        <script>swal({
+          icon:"success",
+                title: "Message Sent!",
+                text: "Thank you for contacting us.",
+                timer: 2000,
+                showConfirmButton: false,
+              });
+    // swal("Message Sent!", "Thank you for contacting us.", "success");
       
   </script>
   <?php
@@ -496,6 +501,42 @@ include("assets/include/config.php");
     }
 }
 ?>
+
+<?php
+    include('assets/include/config.php');
+    // Index
+    if(isset($_POST['modalSave']))
+    {
+        $name=$_POST['name'];
+        $email=$_POST['email'];
+        $phone=$_POST['phone'];
+        // $date=$_POST['date'];
+    
+        $sql=mysqli_query($conn, "INSERT INTO `make_an_appointment`(`name`,`email`,`phone`) VALUES('$name','$email','$phone')");
+    
+        if( $sql==1){
+        // echo "<script>window.location='index.php';</script>";
+        ?>
+        <!-- http_response_code(200); -->
+        <script>swal({
+          icon:"success",
+                title: "Message Sent!",
+                text: "Thank you for contacting us.",
+                timer: 2000,
+                showConfirmButton: false,
+              });
+    // swal("Message Sent!", "Thank you for contacting us.", "success");
+      
+  </script>
+  <?php
+    }
+    else{
+        echo "<script> alert('Connection Failed !');</script>";
+
+    }
+}
+?>
+
 <!-- 
 
 
@@ -503,10 +544,16 @@ include("assets/include/config.php");
 
   <script>
     function sweetalert() {
-    swal("Good job!", "You clicked the button!", "success");
+      swal({
+                title: "Message Sent!",
+                text: "Thank you for contacting us.",
+                timer: 2000,
+                showConfirmButton: false,
+              });
       
     }
   </script> -->
+  
 
 </body>
 

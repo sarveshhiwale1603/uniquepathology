@@ -124,7 +124,7 @@ include("assets/include/config.php");
                     <div class="modal-dialog modal-md" role="document">
                         <div class="modal-content">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                            <form action="packagesDB.php" method="post">
+                            <form  method="post">
                             <div class="modal-body">
                                
                                 <h6 class="title mb-2 mt-2"><?php echo $arr1['treatment_name'];?></h6>
@@ -192,9 +192,41 @@ include("assets/include/config.php");
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <script>
-    document.getElementById("")
+  <?php
+    include('assets/include/config.php');
+    if(isset($_POST['order']))
+{
+    $heading=$_POST['heading'];
+    $name=$_POST['name'];
+    $email=$_POST['email'];
+    $phone=$_POST['phone'];
+    // $date=$_POST['date'];
+
+    $sql=mysqli_query($conn, "INSERT INTO `treatment_order`(`heading`,`name`,`email`,`phone`) VALUES('$heading','$name','$email','$phone')");
+
+    if( $sql==1){
+        // echo "<script>window.location='index.php';</script>";
+        ?>
+        <!-- http_response_code(200); -->
+        <script>swal({
+          icon:"success",
+                title: "Order Registered!",
+                text: "Thank you.",
+                timer: 2000,
+                showConfirmButton: false,
+              });
+    // swal("Message Sent!", "Thank you for contacting us.", "success");
+      
   </script>
+  <?php
+    }
+    else{
+        echo "<script> alert('Connection Failed !');</script>";
+
+    }
+}
+?>
+ 
 </body>
 
 </html>

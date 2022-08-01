@@ -75,7 +75,7 @@
                     <div class="modal-dialog modal-md" role="document">
                         <div class="modal-content">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                            <form action="indexDB.php" method="post">
+                            <form action="index.php" method="post">
                             <div class="modal-body">
                                
                                 <h6 class="title mb-2 mt-2">Book Appointment</h6>
