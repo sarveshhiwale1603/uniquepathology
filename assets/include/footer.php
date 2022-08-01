@@ -50,7 +50,7 @@
         <h4>GET IN TOUCH</h4>
         <p> Shop No. 5, Twin Shelter CHS, Plot No.-84, Sector 6, Near ICICI Bank, Kopar Khairane, Navi Mumbai, Pin-400709</p>
         <form action="subscribe.php" method="POST">
-          <input type="email" style="border:none !important;" name="email" required>
+          <input type="email" placeholder="Enter Email Here..." style="border:none !important;" name="email" required>
           <input type="submit" value="Subscribe">
         </form>
         <div class="social-links text-center text-md-right mt-4 mr-0 pr-0 ">
@@ -67,7 +67,7 @@
 <div class="container py-4">
 <div class="row">
   <div class="col-lg-6 col-md-6 col-sm-12 copyright text-start pt-1 copyright_footer">
-    Copyright &copy; 2022<a href="https://unique.tectignis.in" target="_blank"><b> Unique Diagnostics</b> </a>| All Rights Reserved
+    &copy; 2022<a href="https://unique.tectignis.in" target="_blank"><b> Unique Diagnostics</b> </a>| All Rights Reserved
   </div>
   <div class="col-lg-6 col-md-6 col-sm-12 text-end copyright_footer">
       Designed by <a href="https://tectignis.in" target="_blank"><b>Tectignis IT Solutions.</b></a>
@@ -75,3 +75,6 @@
     </div>
 </div>
 </footer><!-- End Footer -->
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+

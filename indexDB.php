@@ -12,9 +12,11 @@
 
     if( $sql==1){
         echo "<script>window.location='index.php';</script>";
+        http_response_code(200);
     }
     else{
         echo "<script> alert('Connection Failed !');</script>";
+        http_response_code(404);
 
     }
 }

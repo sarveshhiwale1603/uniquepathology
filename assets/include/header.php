@@ -6,7 +6,7 @@
         <div class="col-5 col-lg-7 col-md-7">
           <div class="row">
         <div class="col-sm-12 col-lg-6 col-md-6"><i class="bi bi-phone"></i><a href="tel:+91 9702452857">+91 9702452857</a> </div>
-        <div class="col-sm-12 col-lg-6 col-md-6"><i class="bi bi-whatsapp"></i><a href="https://wa.me/+91 9702472247" target="_blank">+91 9702472247</a></div>
+        <div class="col-sm-12 col-lg-6 col-md-6"><i class="bi bi-whatsapp"></i><a href="https://wa.me/+919702472247" target="_blank">+91 9702472247</a></div>
         </div>
         </div>
        
