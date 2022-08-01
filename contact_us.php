@@ -64,7 +64,7 @@ include("assets/include/config.php");
   <main id="main" class="mt-5">
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact mt-5 pt-5">
+    <section id="contact" class="contact mt-5 pt-5 pb-0">
       <div class="container mt-5 pt-3">
 
         <div class="section-title">
@@ -82,20 +82,22 @@ include("assets/include/config.php");
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>Shop No. 5, Twin Shelter CHS, Plot No.-84, Sector 6, Near ICICI Bank, Kopar Khairane, Navi Mumbai,
-                  Pin-400709</p>
+                <a href="https://goo.gl/maps/usG4ZHi91JmVVMj46" target="_blank" style="color:#4b7dab;">  <p>Shop No. 5, Twin Shelter CHS, Plot No.-84, Sector 6, Near ICICI Bank, Kopar Khairane, Navi Mumbai,
+                  Pin-400709</p></a>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>uniquekk709@gmail.com</p>
+                <p>
+           <a href="mailto:info@uniquepathology.com" style="color:#4b7dab;">info@uniquepathology.com</a>
+          </p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+91 97024 52857 | +91 9702472247</p>
+                <p><a href="tel:+91 9702452857" style="color:#4b7dab !important;">+91 9702452857</a>| <a href="https://wa.me/+919702472247" target="_blank" style="color:#4b7dab !important;">+91 9702472247</a></p>
               </div>
 
             </div>
@@ -135,9 +137,9 @@ include("assets/include/config.php");
         </div>
 
       </div>
-      <div class="map mt-5 pt-5">
+      <div class="map mt-5 pt-5 mb-0 pb-0">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.1143577329212!2d73.00206351437721!3d19.102638456099843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c0d74da785b1%3A0xfef7f7b3d8a64109!2sTwin+Shelter+Chs+Ltd%2C+Plot+No.84%2C+Sector+6%2C+Kopar+Khairane%2C+Navi+Mumbai%2C+Maharashtra+400709!5e0!3m2!1sen!2sin!4v1561446820777!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.113924035854!2d73.00190661473007!3d19.102657487072616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c0d74cf50ffd%3A0x4518813cd4938517!2sUNIQUE%20PATHOLOGY%20LABORATORY!5e0!3m2!1sen!2sin!4v1659340468888!5m2!1sen!2sin"
           width="100%" height="350px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
       </div>
     </section><!-- End Contact Section -->

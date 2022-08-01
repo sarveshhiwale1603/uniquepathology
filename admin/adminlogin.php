@@ -91,7 +91,7 @@ border-bottom-right-radius: .3rem;
 
                 <div class="text-center">
                   <img src="../assets\img\webp\footerlogo.png"
-                    style="width:40%;" alt="logo">
+                    style="width:60%;" alt="logo">
                     <!-- <h6>UNIQUE PATHOLOGY</h6> -->
                 </div><br>
 

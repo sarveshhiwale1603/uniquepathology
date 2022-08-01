@@ -32,6 +32,16 @@ include('include/config.php');
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
 	
 	<script src="https://kit.fontawesome.com/467f9d214f.js" crossorigin="anonymous"></script>
+
+  <!-- <style>
+
+
+@media (max-width:768px) {
+  .footerAlign{
+    text-align: center !important;
+  }
+}
+  </style> -->
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">

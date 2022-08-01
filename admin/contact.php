@@ -98,7 +98,7 @@ if(isset($_GET['gen'])){
               </div>
               <!-- /.card-header -->
               <div class="card-body">
-              <div class="table-responsive pt-3">
+              <div class="table-responsive">
                     <table id="example1" class="table table-bordered table-striped">
                       <thead>
                                             <tr>
@@ -214,6 +214,7 @@ if(isset($_GET['gen'])){
         "responsive": true,
         "lengthChange": true,
         "autoWidth": false,
+        "buttons": ["excel", "pdf", "print"]
       }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
       $('#example2').DataTable({
         "paging": true,

@@ -177,11 +177,11 @@ border-bottom-right-radius: .3rem;
             <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
               <div class="text-white px-3 py-4 p-md-5 mx-md-4">
           	<h2>Forgot your password?</h2>
-          <p>Change your password in three easy steps. This will help you to secure your password!</p>
+          <p>Change your password in three easy steps. This will help you to secure your account!</p>
           <ol class="list-unstyled">
             <li>1. Enter your email address below.</li>
-            <li>2. Our system will send you a temporary link</li>
-            <li>3. Use the link to reset your password</li>
+            <li>2. Our system will send you a password on your mail</li>
+            <li>3. Use the password to login your account</li>
           </ol>
 
         
