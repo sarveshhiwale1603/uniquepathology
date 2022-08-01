@@ -397,20 +397,20 @@ include("assets/include/config.php");
             <h2 class="title text-white">Book An <span>Appointment Now!</span></h2>
           </div>
           <form  method="POST" role="form" class="php-email-form">
-            <div class="row">
-              <div class="col-md-6 offset-3 form-group">
+            <div class="row justify-content-center">
+              <div class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" required placeholder="Your Name"
                   data-rule="minlen:4" data-msg="Please enter at least 4 chars ">
                 <div class="validate"></div>
               </div>
-              <div class="col-md-6 offset-3 form-group mt-3 ">
+              <div class="col-md-6 form-group mt-3 ">
                 <input type="email" class="form-control" name="email" id="email" required placeholder="Your Email"
                   data-rule="email" data-msg="Please enter a valid email">
                 <div class="validate"></div>
               </div>
             </div>
             <div class="row">
-              <div class="col-md-6 offset-3 form-group mt-3">
+              <div class="col-md-6 form-group mt-3">
                 <input type="tel" class="form-control" name="phone" id="phone" required placeholder="Your Phone"
                   data-rule="minlen:4" data-msg="Please enter at least 4 chars" minlength="10" maxlength="10">
                 <div class="validate"></div>
