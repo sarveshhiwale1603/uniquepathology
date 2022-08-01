@@ -470,7 +470,12 @@ include("assets/include/config.php");
   <script src="assets/js/main.js"></script>
   <script>
     function sweetalert() {
-    swal("Good job!", "You clicked the button!", "success");
+      swal({
+                title: "Message Sent!",
+                text: "Thank you for contacting us.",
+                timer: 2000,
+                showConfirmButton: false,
+              });
       
     }
   </script>
