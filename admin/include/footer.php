@@ -7,7 +7,7 @@
     </footer> -->
     <footer class="main-footer">
       <div class="row">
-        <div class="col-md-6 text-end">
+        <div class="col-md-6 text-right">
         <strong>Copyright &copy; 2022. Unique Pathology</strong>
         </div>
         <div class="col-md-6">
