@@ -684,6 +684,11 @@
     width: calc(100% - 20px);
   }
 }
+@media (max-width: 992px) {
+    .swal-modal {
+      width: calc(100% - 20px);
+    }
+  }
 @-webkit-keyframes showSweetAlert {
   0% {
     -webkit-transform: scale(1);
