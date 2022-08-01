@@ -396,7 +396,7 @@ include("assets/include/config.php");
             <!-- <h6>Reservation</h6> -->
             <h2 class="title text-white">Book An <span>Appointment Now!</span></h2>
           </div>
-          <form action="indexDB.php" method="POST" role="form" class="php-email-form">
+          <form  method="POST" role="form" class="php-email-form">
             <div class="row">
               <div class="col-md-6 offset-3 form-group">
                 <input type="text" name="name" class="form-control" id="name" required placeholder="Your Name"
@@ -460,7 +460,6 @@ include("assets/include/config.php");
     crossorigin="anonymous"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 
     <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
@@ -468,12 +467,42 @@ include("assets/include/config.php");
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <?php
+    include('assets/include/config.php');
+    // Index
+    if(isset($_POST['save']))
+{
+    $name=$_POST['name'];
+    $email=$_POST['email'];
+    $phone=$_POST['phone'];
+    $date=$_POST['date'];
+
+    $sql=mysqli_query($conn, "INSERT INTO `make_an_appointment`(`name`,`email`,`phone`,`date`) VALUES('$name','$email','$phone','$date')");
+
+    if( $sql==1){
+        // echo "<script>window.location='index.php';</script>";
+        ?>
+        <!-- http_response_code(200); -->
+        <script>
+    swal("Good job!", "You clicked the button!", "success");
+      
+  </script>
+  <?php
+    }
+    else{
+        echo "<script> alert('Connection Failed !');</script>";
+        http_response_code(404);
+
+    }
+}
+?>
+<!-- 
   <script>
     function sweetalert() {
     swal("Good job!", "You clicked the button!", "success");
       
     }
-  </script>
+  </script> -->
 
 </body>
 

@@ -90,7 +90,7 @@ if(isset($_GET['gen'])){
                                                 <th>Type</th>
                                                 <th>Email</th>
                                                 <th>phone</th>
-                                                <th>Date</th>
+                                                <!-- <th>Date</th> -->
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -106,7 +106,7 @@ if(isset($_GET['gen'])){
                                                 <td> <?php echo $arr['heading'];?></td>
                                                 <td> <?php echo $arr['email'];?> </td>
                                                 <td> <?php echo $arr['phone'];?></td>
-                                                <td> <?php echo $arr['date'];?></td>
+                                                <!-- <td> <?php echo $arr['date'];?></td> -->
 
 
                                                 

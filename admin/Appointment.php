@@ -86,7 +86,7 @@ if(isset($_GET['gen'])){
                                                 <th>Name</th>
                                                 <th>Email</th>
                                                 <th>Phone Number</th>
-                                                 <th>Date</th>
+                                                 <!-- <th>Date</th> -->
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -101,7 +101,7 @@ if(isset($_GET['gen'])){
                                                 <td> <?php echo $arr['name'];?> </td>
                                                 <td> <?php echo $arr['email'];?></td>
                                                 <td> <?php echo $arr['phone'];?></td>
-                                                <td> <?php echo $arr['date'];?></td>
+                                                <!-- <td> <?php echo $arr['date'];?></td> -->
                                                   <a href="make_an_appointment.php?gen=<?php echo $arr['id'];?>">
                                              
                          </a>
