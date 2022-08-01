@@ -388,7 +388,7 @@ include("assets/include/config.php");
     <section id="appointment" class="appointment bg-dark p-0">
       <div class="row">
         <div class="col-lg-6 col-sm-12 img-side img-left"
-          style="background: url(assets/img/appointment.jpg) no-repeat left center; background-size: cover;">
+          style="background: url(assets/img/appointment.webp) no-repeat left center; background-size: cover;">
         </div>
         <div class="col-lg-6 col-sm-12 container pt-3 pb-3"
           style="padding-right: 1.5rem!important; padding-left: 1.5rem!important;">
