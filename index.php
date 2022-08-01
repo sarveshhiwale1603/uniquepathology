@@ -71,7 +71,7 @@ include("assets/include/config.php");
     
       @media (max-width: 767px){
         .carousel {
-             margin-bottom: 0 !important;
+             margin-bottom: 10px !important;
              /* height: 100vh !important; */
             }
 
@@ -82,7 +82,10 @@ include("assets/include/config.php");
               margin-top:-80px !important;
             }
             #why-us {
-              margin-top:-80px !important;
+              margin-top:-65px !important;
+            }
+            #phone{
+              margin-top:2px;
             }
           }
   </style>
