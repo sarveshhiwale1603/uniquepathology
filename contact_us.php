@@ -118,7 +118,7 @@ include("assets/include/config.php");
                   <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number"
                     minlength="10" maxlength="10" required>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-md-6 col-12 mt-3">
                   <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
                 </div>
               </div>
