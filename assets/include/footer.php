@@ -14,7 +14,7 @@
             </div>
            <div class="footer-content-card">
            <i class="bi bi-whatsapp"  style="color:#4ab242;"></i>
-            <a href="https://wa.me/+91 9702472247" style="color:#777777;" target="_blank">+91 9702472247</a>
+            <a href="https://wa.me/+919702472247" style="color:#777777;" target="_blank">+91 9702472247</a>
            </div>
            <br>
            <div class="footer-content-card">
