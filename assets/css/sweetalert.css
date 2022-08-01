@@ -656,7 +656,7 @@
 }
 @media (max-width:768px) {
     .swal-modal{
-        width: 70% !important;
+        width: 70vw !important;
     }
 }
 .swal-modal {
