@@ -85,7 +85,8 @@ include("assets/include/config.php");
               margin-top:-65px !important;
             }
             #phone{
-              margin-top:2px;
+              margin-top:5px;
+              margin-bottom:5px;
             }
           }
   </style>
