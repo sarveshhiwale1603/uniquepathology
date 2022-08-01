@@ -200,9 +200,9 @@ include("assets/include/config.php");
     $name=$_POST['name'];
     $email=$_POST['email'];
     $phone=$_POST['phone'];
-    $date=$_POST['date'];
+    // $date=$_POST['date'];
 
-    $sql=mysqli_query($conn, "INSERT INTO `treatment_order`(`heading`,`name`,`email`,`phone`,`date`) VALUES('$heading','$name','$email','$phone','$date')");
+    $sql=mysqli_query($conn, "INSERT INTO `treatment_order`(`heading`,`name`,`email`,`phone`) VALUES('$heading','$name','$email','$phone')");
 
     if( $sql==1){
         // echo "<script>window.location='index.php';</script>";
