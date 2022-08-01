@@ -654,6 +654,11 @@
   animation: showSweetAlert 0.3s;
   will-change: transform;
 }
+@media (max-width:768px) {
+    .swal-modal{
+        width: 70% !important;
+    }
+}
 .swal-modal {
   width: 478px;
   opacity: 0;
