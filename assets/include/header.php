@@ -14,7 +14,7 @@
         
       </div>
       <div class="d-none d-lg-flex social-links align-items-center">
-        <a href="https://www.facebook.com/UniqueDiagnosticsPathologyLab/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.facebook.com/UniqueDiagnosticsPathologyLab/" target="_blank" class="facebook"><i class="bi bi-facebook" style="color:#4AB242"></i></a>
       </div>
     </div>
   </div>
