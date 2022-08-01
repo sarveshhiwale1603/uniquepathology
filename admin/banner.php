@@ -133,11 +133,11 @@ if(isset($_POST['home3']))
                   <div class="card-header">
                     <h3 class="card-title">Index Image 1</h3>
 
-                    <div class="card-tools">
+                    <!-- <div class="card-tools">
                       <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
                         <i class="fas fa-minus"></i>
                       </button>
-                    </div>
+                    </div> -->
                   </div>
                   <form method="post" enctype="multipart/form-data" action="">
                     <div class="card-body">
@@ -202,11 +202,11 @@ if(isset($_POST['home3']))
                   <div class="card-header">
                     <h3 class="card-title">Index Image 2</h3>
 
-                    <div class="card-tools">
+                    <!-- <div class="card-tools">
                       <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
                         <i class="fas fa-minus"></i>
                       </button>
-                    </div>
+                    </div> -->
                   </div>
                   <form method="post" enctype="multipart/form-data" action="">
                     <div class="card-body">
@@ -266,11 +266,11 @@ if(isset($_POST['home3']))
                   <div class="card-header">
                     <h3 class="card-title">Index Image 3</h3>
 
-                    <div class="card-tools">
+                    <!-- <div class="card-tools">
                       <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
                         <i class="fas fa-minus"></i>
                       </button>
-                    </div>
+                    </div> -->
                   </div>
                   <form method="post" enctype="multipart/form-data" action="">
                     <div class="card-body">
