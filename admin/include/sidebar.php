@@ -82,33 +82,6 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
                 </p>
               </a>
             </li>
-            <!-- <li class="nav-item">
-             <a href="#" class="nav-link">
-             <i class="nav-icon fas fa-user-cog text-blue"></i>
-             <p>
-            Setting
-              <i class="fas fa-angle-left right"></i>
-              </p>
-            </a>  
-        <ul class="nav nav-treeview">
-          <li class="nav-item">
-            <a href="banner.php" class="nav-link">
-              <i class="nav-icon fas fa-cogs text-pink"></i>
-              <p>General Setting</p>
-            </a>
-          </li> -->
-          <!-- <li class="nav-item">
-            <a href="paymentaccount.php" class="nav-link">
-              <i class="nav-icon fas fa-file-invoice text-blue"></i>
-              <p>Payment Account</p>
-            </a>
-          </li> -->
-            <!-- <li class="nav-item">
-            <a href="googleanalytics.php" class="nav-link">
-              <i class="nav-icon fas fa-sun text-yellow"></i>
-              <p>Google Analytics</p>
-            </a>
-          </li> -->
         </ul>
       </li>            
           
