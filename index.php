@@ -154,18 +154,6 @@ include("assets/include/config.php");
         <div class="container">
 
           <div class="row">
-            <!-- <div class="col-lg-4 d-flex align-items-stretch">
-            <div class="content">
-              <h3>Why Choose Medilab?</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
-              </p>
-              <div class="text-center">
-                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
-              </div>
-            </div>
-          </div> -->
             <div class="col-lg-12 col-md-12 col-sm-12 d-flex align-items-stretch">
               <div class="icon-boxes d-flex flex-column justify-content-center">
                 <div class="row">
@@ -221,36 +209,6 @@ include("assets/include/config.php");
               <p class="py-2">The profile comprises of a variety of test combinations which are specific to a disease or
                 disorder as well as wellness profiles that are used for health and fitness screening.</p>
               <div class="row text-center">
-                <!-- <div class="col-sm-4">
-                  <div class="ht-rounded-skill">
-                    <div class="rounded-skill skill" data-circle-starttime="0" data-circle-maxvalue="60"
-                      data-circle-dialwidth="12" data-circle-type="progress">
-                      <div class="skill-bg" style="border-width: 12px;">
-                        <div class="skill-num" data-value="93">93%</div>
-                      </div>
-                      <div class="spinner-holder-one animate-0-25-a">
-                        <div class="spinner-holder-two animate-0-25-b" style="transform: rotate(0deg);">
-                          <div class="skill-spinner" style="border-width: 12px;"></div>
-                        </div>
-                      </div>
-                      <div class="spinner-holder-one animate-25-50-a">
-                        <div class="spinner-holder-two animate-25-50-b" style="transform: rotate(0deg);">
-                          <div class="skill-spinner" style="border-width: 12px;"></div>
-                        </div>
-                      </div>
-                      <div class="spinner-holder-one animate-50-75-a">
-                        <div class="spinner-holder-two animate-50-75-b" style="transform: rotate(0deg);">
-                          <div class="skill-spinner" style="border-width: 12px;"></div>
-                        </div>
-                      </div>
-                      <div class="spinner-holder-one animate-75-100-a">
-                        <div class="spinner-holder-two animate-75-100-b" style="transform: rotate(-30deg);">
-                          <div class="skill-spinner" style="border-width: 12px;"></div>
-                        </div>
-                      </div>
-                    </div> <span class="skill-title">Diagnostic Center</span>
-                  </div>
-                </div> -->
                 <div class="col-6 ">
                   <div class="ht-rounded-skill">
                     <div class="rounded-skill skill" data-circle-starttime="0" data-circle-maxvalue="80"
@@ -413,13 +371,6 @@ include("assets/include/config.php");
                   data-rule="minlen:4" data-msg="Please enter at least 4 chars" minlength="10" maxlength="10">
                 <div class="validate"></div>
             </div>
-
-              <!-- <div class="col-md-6 form-group mt-3">
-              onfocus="(this.type='date')"
-                <input type="date"  name="date" class="form-control " required id=""
-                  placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                <div class="validate"></div>
-              </div> -->
             </div>
             <div class="mb-3">
               <div class="loading">Loading</div>
@@ -457,13 +408,6 @@ include("assets/include/config.php");
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
-
-
-
-    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
-
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <?php
@@ -536,25 +480,6 @@ include("assets/include/config.php");
     }
 }
 ?>
-
-<!-- 
-
-
-
-
-  <script>
-    function sweetalert() {
-      swal({
-                title: "Message Sent!",
-                text: "Thank you for contacting us.",
-                timer: 2000,
-                showConfirmButton: false,
-              });
-      
-    }
-  </script> -->
-  
-
 </body>
 
 </html>

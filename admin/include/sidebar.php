@@ -109,8 +109,8 @@ $page=substr($_SERVER['SCRIPT_NAME'],strrpos($_SERVER['SCRIPT_NAME'],"/")+1);
               <p>Google Analytics</p>
             </a>
           </li> -->
-        <!-- </ul>
-      </li>             -->
+        </ul>
+      </li>            
           
            
            
